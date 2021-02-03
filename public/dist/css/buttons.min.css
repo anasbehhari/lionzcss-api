@@ -1,0 +1,3172 @@
+@-webkit-keyframes cl50 {
+  100% {
+    -webkit-clip-path: circle(50% at 50% 50%);
+            clip-path: circle(50% at 50% 50%);
+    opacity: 0;
+  }
+}
+
+@keyframes cl50 {
+  100% {
+    -webkit-clip-path: circle(50% at 50% 50%);
+            clip-path: circle(50% at 50% 50%);
+    opacity: 0;
+  }
+}
+
+button.btnc {
+  position: relative;
+  border: none;
+  padding: 0;
+  font-size: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  background-color: #fafafa;
+  outline: none;
+  border-radius: 5px;
+  -webkit-transition: .3s transform;
+  transition: .3s transform;
+  cursor: pointer;
+}
+
+button.btnc:active {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+}
+
+button.btnc a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button.btnc.disabled::after {
+  position: absolute;
+  z-index: 99;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+  background-color: rgba(0, 0, 0, 0.1);
+  cursor: not-allowed;
+}
+
+button.btnc.disabled:hover span {
+  -webkit-transform: none !important;
+          transform: none !important;
+  -webkit-clip-path: none !important;
+          clip-path: none !important;
+}
+
+button.btnc.disabled:hover i {
+  -webkit-transform: none !important;
+          transform: none !important;
+}
+
+button.btnc.rounded {
+  border-radius: 200px;
+}
+
+button.btnc span {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  padding: 0.9em 3rem;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+          clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  -webkit-transition: 0.3s -webkit-clip-path ease, 0.3s -webkit-transform ease-out;
+  transition: 0.3s -webkit-clip-path ease, 0.3s -webkit-transform ease-out;
+  transition: 0.3s clip-path ease, 0.3s transform ease-out;
+  transition: 0.3s clip-path ease, 0.3s transform ease-out, 0.3s -webkit-clip-path ease, 0.3s -webkit-transform ease-out;
+  z-index: 2;
+}
+
+button.btnc i {
+  position: absolute;
+  font-size: 1.5em;
+  color: inherit;
+  top: 50%;
+  left: 90%;
+  -webkit-transform: translate(-100%, -220%);
+          transform: translate(-100%, -220%);
+  -webkit-transition: 0.3s -webkit-transform ease-in-out;
+  transition: 0.3s -webkit-transform ease-in-out;
+  transition: 0.3s transform ease-in-out;
+  transition: 0.3s transform ease-in-out, 0.3s -webkit-transform ease-in-out;
+  z-index: 1;
+}
+
+button.btnc:hover span {
+  -webkit-transform: translateX(-15%);
+          transform: translateX(-15%);
+  -webkit-clip-path: polygon(0 0, 93% 0, 77% 100%, 0% 100%);
+          clip-path: polygon(0 0, 93% 0, 77% 100%, 0% 100%);
+}
+
+button.btnc:hover i {
+  -webkit-transform: translate(-100%, -50%);
+          transform: translate(-100%, -50%);
+}
+
+button.btnr {
+  position: relative;
+  border: none;
+  overflow: hidden;
+  font-size: 1rem;
+  border-radius: 5px;
+  padding: 0.7rem 1.5rem;
+  font-family: "Open Sans", sans-serif;
+  background-color: #000;
+  color: #fff;
+  -webkit-transition: 0.5s -webkit-box-shadow, 0.1s -webkit-transform;
+  transition: 0.5s -webkit-box-shadow, 0.1s -webkit-transform;
+  transition: 0.5s box-shadow, 0.1s transform;
+  transition: 0.5s box-shadow, 0.1s transform, 0.5s -webkit-box-shadow, 0.1s -webkit-transform;
+  cursor: pointer;
+  text-transform: capitalize;
+  outline: none;
+}
+
+button.btnr a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button.btnr.disabled::after {
+  position: absolute;
+  z-index: 99;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+  background-color: rgba(0, 0, 0, 0.1);
+  cursor: not-allowed;
+}
+
+button.btnr.disabled:hover span {
+  -webkit-transform: none !important;
+          transform: none !important;
+  -webkit-clip-path: none !important;
+          clip-path: none !important;
+}
+
+button.btnr.disabled:hover i {
+  -webkit-transform: none !important;
+          transform: none !important;
+}
+
+button.btnr:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.5);
+}
+
+button.btnr:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.5);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.rounded {
+  border-radius: 200px;
+}
+
+button.btnr.outlined {
+  background-color: transparent;
+  border: 2px solid black;
+  color: black;
+  font-weight: bold;
+}
+
+button.btnr.outlined.hoverd {
+  -webkit-transition: 0.4s background-color, 0.5s -webkit-box-shadow, 0.2s -webkit-transform;
+  transition: 0.4s background-color, 0.5s -webkit-box-shadow, 0.2s -webkit-transform;
+  transition: 0.4s background-color, 0.5s box-shadow, 0.2s transform;
+  transition: 0.4s background-color, 0.5s box-shadow, 0.2s transform, 0.5s -webkit-box-shadow, 0.2s -webkit-transform;
+}
+
+button.btnr.outlined.hoverd:hover {
+  background-color: black !important;
+  color: #fff !important;
+}
+
+button.btnr.outlined:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.1);
+}
+
+button.btnr.outlined:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.1);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.danger {
+  color: #fff;
+  background-color: #e74c3c;
+}
+
+button.btnr.danger:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(231, 76, 60, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(231, 76, 60, 0.4);
+}
+
+button.btnr.danger:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(231, 76, 60, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(231, 76, 60, 0.4);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.danger.outlined {
+  background-color: transparent;
+  border: 2px solid #e74c3c;
+  color: #e74c3c;
+  font-weight: bold;
+}
+
+button.btnr.danger.outlined:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(231, 76, 60, 0.3);
+          box-shadow: 0px 5px 20px 0px rgba(231, 76, 60, 0.3);
+}
+
+button.btnr.danger.outlined:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(231, 76, 60, 0.3);
+          box-shadow: 0px 5px 20px 0px rgba(231, 76, 60, 0.3);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.danger.outlined.hoverd {
+  -webkit-transition: 0.4s background-color, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+  transition: 0.4s background-color, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+  transition: 0.4s background-color, 0.5s box-shadow, 0.3s transform;
+  transition: 0.4s background-color, 0.5s box-shadow, 0.3s transform, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+}
+
+button.btnr.danger.outlined.hoverd:hover {
+  background-color: #e74c3c !important;
+  color: #fff !important;
+}
+
+button.btnr.danger.outlined.hoverd:focus {
+  background-color: #e74c3c !important;
+  color: #fff !important;
+}
+
+button.btnr.danger.outlined.hoverd:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(231, 76, 60, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(231, 76, 60, 0.4);
+}
+
+button.btnr.danger.outlined.hoverd:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(231, 76, 60, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(231, 76, 60, 0.4);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.success {
+  color: #fff;
+  background-color: #2ecc71;
+}
+
+button.btnr.success:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(46, 204, 113, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(46, 204, 113, 0.4);
+}
+
+button.btnr.success:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(46, 204, 113, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(46, 204, 113, 0.4);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.success.outlined {
+  background-color: transparent;
+  border: 2px solid #2ecc71;
+  color: #2ecc71;
+  font-weight: bold;
+}
+
+button.btnr.success.outlined:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(46, 204, 113, 0.3);
+          box-shadow: 0px 5px 20px 0px rgba(46, 204, 113, 0.3);
+}
+
+button.btnr.success.outlined:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(46, 204, 113, 0.3);
+          box-shadow: 0px 5px 20px 0px rgba(46, 204, 113, 0.3);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.success.outlined.hoverd {
+  -webkit-transition: 0.4s background-color, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+  transition: 0.4s background-color, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+  transition: 0.4s background-color, 0.5s box-shadow, 0.3s transform;
+  transition: 0.4s background-color, 0.5s box-shadow, 0.3s transform, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+}
+
+button.btnr.success.outlined.hoverd:hover {
+  background-color: #2ecc71 !important;
+  color: #fff !important;
+}
+
+button.btnr.success.outlined.hoverd:focus {
+  background-color: #2ecc71 !important;
+  color: #fff !important;
+}
+
+button.btnr.success.outlined.hoverd:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(46, 204, 113, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(46, 204, 113, 0.4);
+}
+
+button.btnr.success.outlined.hoverd:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(46, 204, 113, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(46, 204, 113, 0.4);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.warning {
+  color: #fff;
+  background-color: #f1c40f;
+}
+
+button.btnr.warning:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(241, 196, 15, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(241, 196, 15, 0.4);
+}
+
+button.btnr.warning:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(241, 196, 15, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(241, 196, 15, 0.4);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.warning.outlined {
+  background-color: transparent;
+  border: 2px solid #f1c40f;
+  color: #f1c40f;
+  font-weight: bold;
+}
+
+button.btnr.warning.outlined:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(241, 196, 15, 0.3);
+          box-shadow: 0px 5px 20px 0px rgba(241, 196, 15, 0.3);
+}
+
+button.btnr.warning.outlined:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(241, 196, 15, 0.3);
+          box-shadow: 0px 5px 20px 0px rgba(241, 196, 15, 0.3);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.warning.outlined.hoverd {
+  -webkit-transition: 0.4s background-color, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+  transition: 0.4s background-color, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+  transition: 0.4s background-color, 0.5s box-shadow, 0.3s transform;
+  transition: 0.4s background-color, 0.5s box-shadow, 0.3s transform, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+}
+
+button.btnr.warning.outlined.hoverd:hover {
+  background-color: #f1c40f !important;
+  color: #fff !important;
+}
+
+button.btnr.warning.outlined.hoverd:focus {
+  background-color: #f1c40f !important;
+  color: #fff !important;
+}
+
+button.btnr.warning.outlined.hoverd:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(241, 196, 15, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(241, 196, 15, 0.4);
+}
+
+button.btnr.warning.outlined.hoverd:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(241, 196, 15, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(241, 196, 15, 0.4);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.primary {
+  color: #fff;
+  background-color: #30336b;
+}
+
+button.btnr.primary:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(48, 51, 107, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(48, 51, 107, 0.4);
+}
+
+button.btnr.primary:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(48, 51, 107, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(48, 51, 107, 0.4);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.primary.outlined {
+  background-color: transparent;
+  border: 2px solid #30336b;
+  color: #30336b;
+  font-weight: bold;
+}
+
+button.btnr.primary.outlined:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(48, 51, 107, 0.3);
+          box-shadow: 0px 5px 20px 0px rgba(48, 51, 107, 0.3);
+}
+
+button.btnr.primary.outlined:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(48, 51, 107, 0.3);
+          box-shadow: 0px 5px 20px 0px rgba(48, 51, 107, 0.3);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.primary.outlined.hoverd {
+  -webkit-transition: 0.4s background-color, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+  transition: 0.4s background-color, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+  transition: 0.4s background-color, 0.5s box-shadow, 0.3s transform;
+  transition: 0.4s background-color, 0.5s box-shadow, 0.3s transform, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+}
+
+button.btnr.primary.outlined.hoverd:hover {
+  background-color: #30336b !important;
+  color: #fff !important;
+}
+
+button.btnr.primary.outlined.hoverd:focus {
+  background-color: #30336b !important;
+  color: #fff !important;
+}
+
+button.btnr.primary.outlined.hoverd:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(48, 51, 107, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(48, 51, 107, 0.4);
+}
+
+button.btnr.primary.outlined.hoverd:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(48, 51, 107, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(48, 51, 107, 0.4);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.secondry {
+  color: #fff;
+  background-color: #a8acb1;
+}
+
+button.btnr.secondry:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(168, 172, 177, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(168, 172, 177, 0.4);
+}
+
+button.btnr.secondry:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(168, 172, 177, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(168, 172, 177, 0.4);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.secondry.outlined {
+  background-color: transparent;
+  border: 2px solid #a8acb1;
+  color: #a8acb1;
+  font-weight: bold;
+}
+
+button.btnr.secondry.outlined:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(168, 172, 177, 0.3);
+          box-shadow: 0px 5px 20px 0px rgba(168, 172, 177, 0.3);
+}
+
+button.btnr.secondry.outlined:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(168, 172, 177, 0.3);
+          box-shadow: 0px 5px 20px 0px rgba(168, 172, 177, 0.3);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.secondry.outlined.hoverd {
+  -webkit-transition: 0.4s background-color, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+  transition: 0.4s background-color, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+  transition: 0.4s background-color, 0.5s box-shadow, 0.3s transform;
+  transition: 0.4s background-color, 0.5s box-shadow, 0.3s transform, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+}
+
+button.btnr.secondry.outlined.hoverd:hover {
+  background-color: #a8acb1 !important;
+  color: #fff !important;
+}
+
+button.btnr.secondry.outlined.hoverd:focus {
+  background-color: #a8acb1 !important;
+  color: #fff !important;
+}
+
+button.btnr.secondry.outlined.hoverd:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(168, 172, 177, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(168, 172, 177, 0.4);
+}
+
+button.btnr.secondry.outlined.hoverd:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(168, 172, 177, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(168, 172, 177, 0.4);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.details {
+  color: #fff;
+  background-color: #409efb;
+}
+
+button.btnr.details:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(64, 158, 251, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(64, 158, 251, 0.4);
+}
+
+button.btnr.details:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(64, 158, 251, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(64, 158, 251, 0.4);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.details.outlined {
+  background-color: transparent;
+  border: 2px solid #409efb;
+  color: #409efb;
+  font-weight: bold;
+}
+
+button.btnr.details.outlined:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(64, 158, 251, 0.3);
+          box-shadow: 0px 5px 20px 0px rgba(64, 158, 251, 0.3);
+}
+
+button.btnr.details.outlined:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(64, 158, 251, 0.3);
+          box-shadow: 0px 5px 20px 0px rgba(64, 158, 251, 0.3);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.details.outlined.hoverd {
+  -webkit-transition: 0.4s background-color, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+  transition: 0.4s background-color, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+  transition: 0.4s background-color, 0.5s box-shadow, 0.3s transform;
+  transition: 0.4s background-color, 0.5s box-shadow, 0.3s transform, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+}
+
+button.btnr.details.outlined.hoverd:hover {
+  background-color: #409efb !important;
+  color: #fff !important;
+}
+
+button.btnr.details.outlined.hoverd:focus {
+  background-color: #409efb !important;
+  color: #fff !important;
+}
+
+button.btnr.details.outlined.hoverd:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(64, 158, 251, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(64, 158, 251, 0.4);
+}
+
+button.btnr.details.outlined.hoverd:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(64, 158, 251, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(64, 158, 251, 0.4);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.roguePinky {
+  color: #fff;
+  background-color: #f8a5c2;
+}
+
+button.btnr.roguePinky:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(248, 165, 194, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(248, 165, 194, 0.4);
+}
+
+button.btnr.roguePinky:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(248, 165, 194, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(248, 165, 194, 0.4);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.roguePinky.outlined {
+  background-color: transparent;
+  border: 2px solid #f8a5c2;
+  color: #f8a5c2;
+  font-weight: bold;
+}
+
+button.btnr.roguePinky.outlined:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(248, 165, 194, 0.3);
+          box-shadow: 0px 5px 20px 0px rgba(248, 165, 194, 0.3);
+}
+
+button.btnr.roguePinky.outlined:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(248, 165, 194, 0.3);
+          box-shadow: 0px 5px 20px 0px rgba(248, 165, 194, 0.3);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.roguePinky.outlined.hoverd {
+  -webkit-transition: 0.4s background-color, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+  transition: 0.4s background-color, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+  transition: 0.4s background-color, 0.5s box-shadow, 0.3s transform;
+  transition: 0.4s background-color, 0.5s box-shadow, 0.3s transform, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+}
+
+button.btnr.roguePinky.outlined.hoverd:hover {
+  background-color: #f8a5c2 !important;
+  color: #fff !important;
+}
+
+button.btnr.roguePinky.outlined.hoverd:focus {
+  background-color: #f8a5c2 !important;
+  color: #fff !important;
+}
+
+button.btnr.roguePinky.outlined.hoverd:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(248, 165, 194, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(248, 165, 194, 0.4);
+}
+
+button.btnr.roguePinky.outlined.hoverd:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(248, 165, 194, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(248, 165, 194, 0.4);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.squzaky {
+  color: #fff;
+  background-color: #63cdda;
+}
+
+button.btnr.squzaky:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(99, 205, 218, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(99, 205, 218, 0.4);
+}
+
+button.btnr.squzaky:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(99, 205, 218, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(99, 205, 218, 0.4);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.squzaky.outlined {
+  background-color: transparent;
+  border: 2px solid #63cdda;
+  color: #63cdda;
+  font-weight: bold;
+}
+
+button.btnr.squzaky.outlined:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(99, 205, 218, 0.3);
+          box-shadow: 0px 5px 20px 0px rgba(99, 205, 218, 0.3);
+}
+
+button.btnr.squzaky.outlined:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(99, 205, 218, 0.3);
+          box-shadow: 0px 5px 20px 0px rgba(99, 205, 218, 0.3);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.squzaky.outlined.hoverd {
+  -webkit-transition: 0.4s background-color, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+  transition: 0.4s background-color, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+  transition: 0.4s background-color, 0.5s box-shadow, 0.3s transform;
+  transition: 0.4s background-color, 0.5s box-shadow, 0.3s transform, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+}
+
+button.btnr.squzaky.outlined.hoverd:hover {
+  background-color: #63cdda !important;
+  color: #fff !important;
+}
+
+button.btnr.squzaky.outlined.hoverd:focus {
+  background-color: #63cdda !important;
+  color: #fff !important;
+}
+
+button.btnr.squzaky.outlined.hoverd:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(99, 205, 218, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(99, 205, 218, 0.4);
+}
+
+button.btnr.squzaky.outlined.hoverd:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(99, 205, 218, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(99, 205, 218, 0.4);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.creamyPeach {
+  color: #fff;
+  background-color: #f3a683;
+}
+
+button.btnr.creamyPeach:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(243, 166, 131, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(243, 166, 131, 0.4);
+}
+
+button.btnr.creamyPeach:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(243, 166, 131, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(243, 166, 131, 0.4);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.creamyPeach.outlined {
+  background-color: transparent;
+  border: 2px solid #f3a683;
+  color: #f3a683;
+  font-weight: bold;
+}
+
+button.btnr.creamyPeach.outlined:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(243, 166, 131, 0.3);
+          box-shadow: 0px 5px 20px 0px rgba(243, 166, 131, 0.3);
+}
+
+button.btnr.creamyPeach.outlined:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(243, 166, 131, 0.3);
+          box-shadow: 0px 5px 20px 0px rgba(243, 166, 131, 0.3);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.creamyPeach.outlined.hoverd {
+  -webkit-transition: 0.4s background-color, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+  transition: 0.4s background-color, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+  transition: 0.4s background-color, 0.5s box-shadow, 0.3s transform;
+  transition: 0.4s background-color, 0.5s box-shadow, 0.3s transform, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+}
+
+button.btnr.creamyPeach.outlined.hoverd:hover {
+  background-color: #f3a683 !important;
+  color: #fff !important;
+}
+
+button.btnr.creamyPeach.outlined.hoverd:focus {
+  background-color: #f3a683 !important;
+  color: #fff !important;
+}
+
+button.btnr.creamyPeach.outlined.hoverd:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(243, 166, 131, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(243, 166, 131, 0.4);
+}
+
+button.btnr.creamyPeach.outlined.hoverd:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(243, 166, 131, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(243, 166, 131, 0.4);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.softBlue {
+  color: #fff;
+  background-color: #778beb;
+}
+
+button.btnr.softBlue:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(119, 139, 235, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(119, 139, 235, 0.4);
+}
+
+button.btnr.softBlue:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(119, 139, 235, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(119, 139, 235, 0.4);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.softBlue.outlined {
+  background-color: transparent;
+  border: 2px solid #778beb;
+  color: #778beb;
+  font-weight: bold;
+}
+
+button.btnr.softBlue.outlined:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(119, 139, 235, 0.3);
+          box-shadow: 0px 5px 20px 0px rgba(119, 139, 235, 0.3);
+}
+
+button.btnr.softBlue.outlined:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(119, 139, 235, 0.3);
+          box-shadow: 0px 5px 20px 0px rgba(119, 139, 235, 0.3);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.softBlue.outlined.hoverd {
+  -webkit-transition: 0.4s background-color, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+  transition: 0.4s background-color, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+  transition: 0.4s background-color, 0.5s box-shadow, 0.3s transform;
+  transition: 0.4s background-color, 0.5s box-shadow, 0.3s transform, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+}
+
+button.btnr.softBlue.outlined.hoverd:hover {
+  background-color: #778beb !important;
+  color: #fff !important;
+}
+
+button.btnr.softBlue.outlined.hoverd:focus {
+  background-color: #778beb !important;
+  color: #fff !important;
+}
+
+button.btnr.softBlue.outlined.hoverd:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(119, 139, 235, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(119, 139, 235, 0.4);
+}
+
+button.btnr.softBlue.outlined.hoverd:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(119, 139, 235, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(119, 139, 235, 0.4);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.dragon {
+  color: #fff;
+  background-color: #ff9f43;
+}
+
+button.btnr.dragon:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(255, 159, 67, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(255, 159, 67, 0.4);
+}
+
+button.btnr.dragon:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(255, 159, 67, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(255, 159, 67, 0.4);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.dragon.outlined {
+  background-color: transparent;
+  border: 2px solid #ff9f43;
+  color: #ff9f43;
+  font-weight: bold;
+}
+
+button.btnr.dragon.outlined:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(255, 159, 67, 0.3);
+          box-shadow: 0px 5px 20px 0px rgba(255, 159, 67, 0.3);
+}
+
+button.btnr.dragon.outlined:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(255, 159, 67, 0.3);
+          box-shadow: 0px 5px 20px 0px rgba(255, 159, 67, 0.3);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.dragon.outlined.hoverd {
+  -webkit-transition: 0.4s background-color, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+  transition: 0.4s background-color, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+  transition: 0.4s background-color, 0.5s box-shadow, 0.3s transform;
+  transition: 0.4s background-color, 0.5s box-shadow, 0.3s transform, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+}
+
+button.btnr.dragon.outlined.hoverd:hover {
+  background-color: #ff9f43 !important;
+  color: #fff !important;
+}
+
+button.btnr.dragon.outlined.hoverd:focus {
+  background-color: #ff9f43 !important;
+  color: #fff !important;
+}
+
+button.btnr.dragon.outlined.hoverd:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(255, 159, 67, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(255, 159, 67, 0.4);
+}
+
+button.btnr.dragon.outlined.hoverd:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(255, 159, 67, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(255, 159, 67, 0.4);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.marineblue {
+  color: #fff;
+  background-color: #0652dd;
+}
+
+button.btnr.marineblue:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(6, 82, 221, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(6, 82, 221, 0.4);
+}
+
+button.btnr.marineblue:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(6, 82, 221, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(6, 82, 221, 0.4);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.marineblue.outlined {
+  background-color: transparent;
+  border: 2px solid #0652dd;
+  color: #0652dd;
+  font-weight: bold;
+}
+
+button.btnr.marineblue.outlined:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(6, 82, 221, 0.3);
+          box-shadow: 0px 5px 20px 0px rgba(6, 82, 221, 0.3);
+}
+
+button.btnr.marineblue.outlined:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(6, 82, 221, 0.3);
+          box-shadow: 0px 5px 20px 0px rgba(6, 82, 221, 0.3);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.marineblue.outlined.hoverd {
+  -webkit-transition: 0.4s background-color, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+  transition: 0.4s background-color, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+  transition: 0.4s background-color, 0.5s box-shadow, 0.3s transform;
+  transition: 0.4s background-color, 0.5s box-shadow, 0.3s transform, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+}
+
+button.btnr.marineblue.outlined.hoverd:hover {
+  background-color: #0652dd !important;
+  color: #fff !important;
+}
+
+button.btnr.marineblue.outlined.hoverd:focus {
+  background-color: #0652dd !important;
+  color: #fff !important;
+}
+
+button.btnr.marineblue.outlined.hoverd:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(6, 82, 221, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(6, 82, 221, 0.4);
+}
+
+button.btnr.marineblue.outlined.hoverd:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(6, 82, 221, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(6, 82, 221, 0.4);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.greenDes {
+  color: #fff;
+  background-color: #23ce99;
+}
+
+button.btnr.greenDes:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(35, 206, 153, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(35, 206, 153, 0.4);
+}
+
+button.btnr.greenDes:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(35, 206, 153, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(35, 206, 153, 0.4);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.greenDes.outlined {
+  background-color: transparent;
+  border: 2px solid #23ce99;
+  color: #23ce99;
+  font-weight: bold;
+}
+
+button.btnr.greenDes.outlined:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(35, 206, 153, 0.3);
+          box-shadow: 0px 5px 20px 0px rgba(35, 206, 153, 0.3);
+}
+
+button.btnr.greenDes.outlined:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(35, 206, 153, 0.3);
+          box-shadow: 0px 5px 20px 0px rgba(35, 206, 153, 0.3);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.greenDes.outlined.hoverd {
+  -webkit-transition: 0.4s background-color, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+  transition: 0.4s background-color, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+  transition: 0.4s background-color, 0.5s box-shadow, 0.3s transform;
+  transition: 0.4s background-color, 0.5s box-shadow, 0.3s transform, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+}
+
+button.btnr.greenDes.outlined.hoverd:hover {
+  background-color: #23ce99 !important;
+  color: #fff !important;
+}
+
+button.btnr.greenDes.outlined.hoverd:focus {
+  background-color: #23ce99 !important;
+  color: #fff !important;
+}
+
+button.btnr.greenDes.outlined.hoverd:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(35, 206, 153, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(35, 206, 153, 0.4);
+}
+
+button.btnr.greenDes.outlined.hoverd:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(35, 206, 153, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(35, 206, 153, 0.4);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.lightred {
+  color: #fff;
+  background-color: #ff4f6b;
+}
+
+button.btnr.lightred:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(255, 79, 107, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(255, 79, 107, 0.4);
+}
+
+button.btnr.lightred:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(255, 79, 107, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(255, 79, 107, 0.4);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.lightred.outlined {
+  background-color: transparent;
+  border: 2px solid #ff4f6b;
+  color: #ff4f6b;
+  font-weight: bold;
+}
+
+button.btnr.lightred.outlined:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(255, 79, 107, 0.3);
+          box-shadow: 0px 5px 20px 0px rgba(255, 79, 107, 0.3);
+}
+
+button.btnr.lightred.outlined:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(255, 79, 107, 0.3);
+          box-shadow: 0px 5px 20px 0px rgba(255, 79, 107, 0.3);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.lightred.outlined.hoverd {
+  -webkit-transition: 0.4s background-color, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+  transition: 0.4s background-color, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+  transition: 0.4s background-color, 0.5s box-shadow, 0.3s transform;
+  transition: 0.4s background-color, 0.5s box-shadow, 0.3s transform, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+}
+
+button.btnr.lightred.outlined.hoverd:hover {
+  background-color: #ff4f6b !important;
+  color: #fff !important;
+}
+
+button.btnr.lightred.outlined.hoverd:focus {
+  background-color: #ff4f6b !important;
+  color: #fff !important;
+}
+
+button.btnr.lightred.outlined.hoverd:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(255, 79, 107, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(255, 79, 107, 0.4);
+}
+
+button.btnr.lightred.outlined.hoverd:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(255, 79, 107, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(255, 79, 107, 0.4);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.android {
+  color: #fff;
+  background-color: #a3cb38;
+}
+
+button.btnr.android:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(163, 203, 56, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(163, 203, 56, 0.4);
+}
+
+button.btnr.android:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(163, 203, 56, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(163, 203, 56, 0.4);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.android.outlined {
+  background-color: transparent;
+  border: 2px solid #a3cb38;
+  color: #a3cb38;
+  font-weight: bold;
+}
+
+button.btnr.android.outlined:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(163, 203, 56, 0.3);
+          box-shadow: 0px 5px 20px 0px rgba(163, 203, 56, 0.3);
+}
+
+button.btnr.android.outlined:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(163, 203, 56, 0.3);
+          box-shadow: 0px 5px 20px 0px rgba(163, 203, 56, 0.3);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.android.outlined.hoverd {
+  -webkit-transition: 0.4s background-color, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+  transition: 0.4s background-color, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+  transition: 0.4s background-color, 0.5s box-shadow, 0.3s transform;
+  transition: 0.4s background-color, 0.5s box-shadow, 0.3s transform, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+}
+
+button.btnr.android.outlined.hoverd:hover {
+  background-color: #a3cb38 !important;
+  color: #fff !important;
+}
+
+button.btnr.android.outlined.hoverd:focus {
+  background-color: #a3cb38 !important;
+  color: #fff !important;
+}
+
+button.btnr.android.outlined.hoverd:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(163, 203, 56, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(163, 203, 56, 0.4);
+}
+
+button.btnr.android.outlined.hoverd:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(163, 203, 56, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(163, 203, 56, 0.4);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.pixelatedgrass {
+  color: #fff;
+  background-color: #009432;
+}
+
+button.btnr.pixelatedgrass:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(0, 148, 50, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(0, 148, 50, 0.4);
+}
+
+button.btnr.pixelatedgrass:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(0, 148, 50, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(0, 148, 50, 0.4);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.pixelatedgrass.outlined {
+  background-color: transparent;
+  border: 2px solid #009432;
+  color: #009432;
+  font-weight: bold;
+}
+
+button.btnr.pixelatedgrass.outlined:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(0, 148, 50, 0.3);
+          box-shadow: 0px 5px 20px 0px rgba(0, 148, 50, 0.3);
+}
+
+button.btnr.pixelatedgrass.outlined:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(0, 148, 50, 0.3);
+          box-shadow: 0px 5px 20px 0px rgba(0, 148, 50, 0.3);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.pixelatedgrass.outlined.hoverd {
+  -webkit-transition: 0.4s background-color, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+  transition: 0.4s background-color, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+  transition: 0.4s background-color, 0.5s box-shadow, 0.3s transform;
+  transition: 0.4s background-color, 0.5s box-shadow, 0.3s transform, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+}
+
+button.btnr.pixelatedgrass.outlined.hoverd:hover {
+  background-color: #009432 !important;
+  color: #fff !important;
+}
+
+button.btnr.pixelatedgrass.outlined.hoverd:focus {
+  background-color: #009432 !important;
+  color: #fff !important;
+}
+
+button.btnr.pixelatedgrass.outlined.hoverd:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(0, 148, 50, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(0, 148, 50, 0.4);
+}
+
+button.btnr.pixelatedgrass.outlined.hoverd:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(0, 148, 50, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(0, 148, 50, 0.4);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.eyeofnewt {
+  color: #fff;
+  background-color: #b33939;
+}
+
+button.btnr.eyeofnewt:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(179, 57, 57, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(179, 57, 57, 0.4);
+}
+
+button.btnr.eyeofnewt:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(179, 57, 57, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(179, 57, 57, 0.4);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.eyeofnewt.outlined {
+  background-color: transparent;
+  border: 2px solid #b33939;
+  color: #b33939;
+  font-weight: bold;
+}
+
+button.btnr.eyeofnewt.outlined:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(179, 57, 57, 0.3);
+          box-shadow: 0px 5px 20px 0px rgba(179, 57, 57, 0.3);
+}
+
+button.btnr.eyeofnewt.outlined:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(179, 57, 57, 0.3);
+          box-shadow: 0px 5px 20px 0px rgba(179, 57, 57, 0.3);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.eyeofnewt.outlined.hoverd {
+  -webkit-transition: 0.4s background-color, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+  transition: 0.4s background-color, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+  transition: 0.4s background-color, 0.5s box-shadow, 0.3s transform;
+  transition: 0.4s background-color, 0.5s box-shadow, 0.3s transform, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+}
+
+button.btnr.eyeofnewt.outlined.hoverd:hover {
+  background-color: #b33939 !important;
+  color: #fff !important;
+}
+
+button.btnr.eyeofnewt.outlined.hoverd:focus {
+  background-color: #b33939 !important;
+  color: #fff !important;
+}
+
+button.btnr.eyeofnewt.outlined.hoverd:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(179, 57, 57, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(179, 57, 57, 0.4);
+}
+
+button.btnr.eyeofnewt.outlined.hoverd:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(179, 57, 57, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(179, 57, 57, 0.4);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.summersky {
+  color: #fff;
+  background-color: #34ace0;
+}
+
+button.btnr.summersky:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(52, 172, 224, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(52, 172, 224, 0.4);
+}
+
+button.btnr.summersky:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(52, 172, 224, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(52, 172, 224, 0.4);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.summersky.outlined {
+  background-color: transparent;
+  border: 2px solid #34ace0;
+  color: #34ace0;
+  font-weight: bold;
+}
+
+button.btnr.summersky.outlined:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(52, 172, 224, 0.3);
+          box-shadow: 0px 5px 20px 0px rgba(52, 172, 224, 0.3);
+}
+
+button.btnr.summersky.outlined:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(52, 172, 224, 0.3);
+          box-shadow: 0px 5px 20px 0px rgba(52, 172, 224, 0.3);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.summersky.outlined.hoverd {
+  -webkit-transition: 0.4s background-color, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+  transition: 0.4s background-color, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+  transition: 0.4s background-color, 0.5s box-shadow, 0.3s transform;
+  transition: 0.4s background-color, 0.5s box-shadow, 0.3s transform, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+}
+
+button.btnr.summersky.outlined.hoverd:hover {
+  background-color: #34ace0 !important;
+  color: #fff !important;
+}
+
+button.btnr.summersky.outlined.hoverd:focus {
+  background-color: #34ace0 !important;
+  color: #fff !important;
+}
+
+button.btnr.summersky.outlined.hoverd:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(52, 172, 224, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(52, 172, 224, 0.4);
+}
+
+button.btnr.summersky.outlined.hoverd:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(52, 172, 224, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(52, 172, 224, 0.4);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.spipeanut {
+  color: #fff;
+  background-color: #ffda79;
+}
+
+button.btnr.spipeanut:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(255, 218, 121, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(255, 218, 121, 0.4);
+}
+
+button.btnr.spipeanut:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(255, 218, 121, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(255, 218, 121, 0.4);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.spipeanut.outlined {
+  background-color: transparent;
+  border: 2px solid #ffda79;
+  color: #ffda79;
+  font-weight: bold;
+}
+
+button.btnr.spipeanut.outlined:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(255, 218, 121, 0.3);
+          box-shadow: 0px 5px 20px 0px rgba(255, 218, 121, 0.3);
+}
+
+button.btnr.spipeanut.outlined:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(255, 218, 121, 0.3);
+          box-shadow: 0px 5px 20px 0px rgba(255, 218, 121, 0.3);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.spipeanut.outlined.hoverd {
+  -webkit-transition: 0.4s background-color, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+  transition: 0.4s background-color, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+  transition: 0.4s background-color, 0.5s box-shadow, 0.3s transform;
+  transition: 0.4s background-color, 0.5s box-shadow, 0.3s transform, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+}
+
+button.btnr.spipeanut.outlined.hoverd:hover {
+  background-color: #ffda79 !important;
+  color: #fff !important;
+}
+
+button.btnr.spipeanut.outlined.hoverd:focus {
+  background-color: #ffda79 !important;
+  color: #fff !important;
+}
+
+button.btnr.spipeanut.outlined.hoverd:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(255, 218, 121, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(255, 218, 121, 0.4);
+}
+
+button.btnr.spipeanut.outlined.hoverd:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(255, 218, 121, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(255, 218, 121, 0.4);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.chileanfire {
+  color: #fff;
+  background-color: #cd6133;
+}
+
+button.btnr.chileanfire:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(205, 97, 51, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(205, 97, 51, 0.4);
+}
+
+button.btnr.chileanfire:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(205, 97, 51, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(205, 97, 51, 0.4);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.chileanfire.outlined {
+  background-color: transparent;
+  border: 2px solid #cd6133;
+  color: #cd6133;
+  font-weight: bold;
+}
+
+button.btnr.chileanfire.outlined:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(205, 97, 51, 0.3);
+          box-shadow: 0px 5px 20px 0px rgba(205, 97, 51, 0.3);
+}
+
+button.btnr.chileanfire.outlined:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(205, 97, 51, 0.3);
+          box-shadow: 0px 5px 20px 0px rgba(205, 97, 51, 0.3);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.chileanfire.outlined.hoverd {
+  -webkit-transition: 0.4s background-color, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+  transition: 0.4s background-color, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+  transition: 0.4s background-color, 0.5s box-shadow, 0.3s transform;
+  transition: 0.4s background-color, 0.5s box-shadow, 0.3s transform, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+}
+
+button.btnr.chileanfire.outlined.hoverd:hover {
+  background-color: #cd6133 !important;
+  color: #fff !important;
+}
+
+button.btnr.chileanfire.outlined.hoverd:focus {
+  background-color: #cd6133 !important;
+  color: #fff !important;
+}
+
+button.btnr.chileanfire.outlined.hoverd:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(205, 97, 51, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(205, 97, 51, 0.4);
+}
+
+button.btnr.chileanfire.outlined.hoverd:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(205, 97, 51, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(205, 97, 51, 0.4);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.baywhraf {
+  color: #fff;
+  background-color: #747d8c;
+}
+
+button.btnr.baywhraf:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(116, 125, 140, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(116, 125, 140, 0.4);
+}
+
+button.btnr.baywhraf:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(116, 125, 140, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(116, 125, 140, 0.4);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.baywhraf.outlined {
+  background-color: transparent;
+  border: 2px solid #747d8c;
+  color: #747d8c;
+  font-weight: bold;
+}
+
+button.btnr.baywhraf.outlined:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(116, 125, 140, 0.3);
+          box-shadow: 0px 5px 20px 0px rgba(116, 125, 140, 0.3);
+}
+
+button.btnr.baywhraf.outlined:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(116, 125, 140, 0.3);
+          box-shadow: 0px 5px 20px 0px rgba(116, 125, 140, 0.3);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.baywhraf.outlined.hoverd {
+  -webkit-transition: 0.4s background-color, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+  transition: 0.4s background-color, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+  transition: 0.4s background-color, 0.5s box-shadow, 0.3s transform;
+  transition: 0.4s background-color, 0.5s box-shadow, 0.3s transform, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+}
+
+button.btnr.baywhraf.outlined.hoverd:hover {
+  background-color: #747d8c !important;
+  color: #fff !important;
+}
+
+button.btnr.baywhraf.outlined.hoverd:focus {
+  background-color: #747d8c !important;
+  color: #fff !important;
+}
+
+button.btnr.baywhraf.outlined.hoverd:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(116, 125, 140, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(116, 125, 140, 0.4);
+}
+
+button.btnr.baywhraf.outlined.hoverd:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(116, 125, 140, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(116, 125, 140, 0.4);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.cpurple {
+  color: #fff;
+  background-color: #6868ee;
+}
+
+button.btnr.cpurple:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(104, 104, 238, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(104, 104, 238, 0.4);
+}
+
+button.btnr.cpurple:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(104, 104, 238, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(104, 104, 238, 0.4);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.cpurple.outlined {
+  background-color: transparent;
+  border: 2px solid #6868ee;
+  color: #6868ee;
+  font-weight: bold;
+}
+
+button.btnr.cpurple.outlined:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(104, 104, 238, 0.3);
+          box-shadow: 0px 5px 20px 0px rgba(104, 104, 238, 0.3);
+}
+
+button.btnr.cpurple.outlined:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(104, 104, 238, 0.3);
+          box-shadow: 0px 5px 20px 0px rgba(104, 104, 238, 0.3);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.cpurple.outlined.hoverd {
+  -webkit-transition: 0.4s background-color, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+  transition: 0.4s background-color, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+  transition: 0.4s background-color, 0.5s box-shadow, 0.3s transform;
+  transition: 0.4s background-color, 0.5s box-shadow, 0.3s transform, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+}
+
+button.btnr.cpurple.outlined.hoverd:hover {
+  background-color: #6868ee !important;
+  color: #fff !important;
+}
+
+button.btnr.cpurple.outlined.hoverd:focus {
+  background-color: #6868ee !important;
+  color: #fff !important;
+}
+
+button.btnr.cpurple.outlined.hoverd:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(104, 104, 238, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(104, 104, 238, 0.4);
+}
+
+button.btnr.cpurple.outlined.hoverd:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(104, 104, 238, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(104, 104, 238, 0.4);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.light-green {
+  color: #fff;
+  background-color: #73ffd6;
+}
+
+button.btnr.light-green:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(115, 255, 214, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(115, 255, 214, 0.4);
+}
+
+button.btnr.light-green:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(115, 255, 214, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(115, 255, 214, 0.4);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.light-green.outlined {
+  background-color: transparent;
+  border: 2px solid #73ffd6;
+  color: #73ffd6;
+  font-weight: bold;
+}
+
+button.btnr.light-green.outlined:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(115, 255, 214, 0.3);
+          box-shadow: 0px 5px 20px 0px rgba(115, 255, 214, 0.3);
+}
+
+button.btnr.light-green.outlined:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(115, 255, 214, 0.3);
+          box-shadow: 0px 5px 20px 0px rgba(115, 255, 214, 0.3);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.light-green.outlined.hoverd {
+  -webkit-transition: 0.4s background-color, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+  transition: 0.4s background-color, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+  transition: 0.4s background-color, 0.5s box-shadow, 0.3s transform;
+  transition: 0.4s background-color, 0.5s box-shadow, 0.3s transform, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+}
+
+button.btnr.light-green.outlined.hoverd:hover {
+  background-color: #73ffd6 !important;
+  color: #fff !important;
+}
+
+button.btnr.light-green.outlined.hoverd:focus {
+  background-color: #73ffd6 !important;
+  color: #fff !important;
+}
+
+button.btnr.light-green.outlined.hoverd:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(115, 255, 214, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(115, 255, 214, 0.4);
+}
+
+button.btnr.light-green.outlined.hoverd:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(115, 255, 214, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(115, 255, 214, 0.4);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.light-blue {
+  color: #fff;
+  background-color: #9fc1ff;
+}
+
+button.btnr.light-blue:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(159, 193, 255, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(159, 193, 255, 0.4);
+}
+
+button.btnr.light-blue:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(159, 193, 255, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(159, 193, 255, 0.4);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.light-blue.outlined {
+  background-color: transparent;
+  border: 2px solid #9fc1ff;
+  color: #9fc1ff;
+  font-weight: bold;
+}
+
+button.btnr.light-blue.outlined:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(159, 193, 255, 0.3);
+          box-shadow: 0px 5px 20px 0px rgba(159, 193, 255, 0.3);
+}
+
+button.btnr.light-blue.outlined:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(159, 193, 255, 0.3);
+          box-shadow: 0px 5px 20px 0px rgba(159, 193, 255, 0.3);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.light-blue.outlined.hoverd {
+  -webkit-transition: 0.4s background-color, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+  transition: 0.4s background-color, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+  transition: 0.4s background-color, 0.5s box-shadow, 0.3s transform;
+  transition: 0.4s background-color, 0.5s box-shadow, 0.3s transform, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+}
+
+button.btnr.light-blue.outlined.hoverd:hover {
+  background-color: #9fc1ff !important;
+  color: #fff !important;
+}
+
+button.btnr.light-blue.outlined.hoverd:focus {
+  background-color: #9fc1ff !important;
+  color: #fff !important;
+}
+
+button.btnr.light-blue.outlined.hoverd:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(159, 193, 255, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(159, 193, 255, 0.4);
+}
+
+button.btnr.light-blue.outlined.hoverd:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(159, 193, 255, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(159, 193, 255, 0.4);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.light-blue-solid {
+  color: #fff;
+  background-color: #adc0ea;
+}
+
+button.btnr.light-blue-solid:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(173, 192, 234, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(173, 192, 234, 0.4);
+}
+
+button.btnr.light-blue-solid:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(173, 192, 234, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(173, 192, 234, 0.4);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.light-blue-solid.outlined {
+  background-color: transparent;
+  border: 2px solid #adc0ea;
+  color: #adc0ea;
+  font-weight: bold;
+}
+
+button.btnr.light-blue-solid.outlined:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(173, 192, 234, 0.3);
+          box-shadow: 0px 5px 20px 0px rgba(173, 192, 234, 0.3);
+}
+
+button.btnr.light-blue-solid.outlined:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(173, 192, 234, 0.3);
+          box-shadow: 0px 5px 20px 0px rgba(173, 192, 234, 0.3);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.light-blue-solid.outlined.hoverd {
+  -webkit-transition: 0.4s background-color, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+  transition: 0.4s background-color, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+  transition: 0.4s background-color, 0.5s box-shadow, 0.3s transform;
+  transition: 0.4s background-color, 0.5s box-shadow, 0.3s transform, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+}
+
+button.btnr.light-blue-solid.outlined.hoverd:hover {
+  background-color: #adc0ea !important;
+  color: #fff !important;
+}
+
+button.btnr.light-blue-solid.outlined.hoverd:focus {
+  background-color: #adc0ea !important;
+  color: #fff !important;
+}
+
+button.btnr.light-blue-solid.outlined.hoverd:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(173, 192, 234, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(173, 192, 234, 0.4);
+}
+
+button.btnr.light-blue-solid.outlined.hoverd:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(173, 192, 234, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(173, 192, 234, 0.4);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.light-alice {
+  color: #fff;
+  background-color: #9adaff;
+}
+
+button.btnr.light-alice:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(154, 218, 255, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(154, 218, 255, 0.4);
+}
+
+button.btnr.light-alice:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(154, 218, 255, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(154, 218, 255, 0.4);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.light-alice.outlined {
+  background-color: transparent;
+  border: 2px solid #9adaff;
+  color: #9adaff;
+  font-weight: bold;
+}
+
+button.btnr.light-alice.outlined:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(154, 218, 255, 0.3);
+          box-shadow: 0px 5px 20px 0px rgba(154, 218, 255, 0.3);
+}
+
+button.btnr.light-alice.outlined:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(154, 218, 255, 0.3);
+          box-shadow: 0px 5px 20px 0px rgba(154, 218, 255, 0.3);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.light-alice.outlined.hoverd {
+  -webkit-transition: 0.4s background-color, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+  transition: 0.4s background-color, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+  transition: 0.4s background-color, 0.5s box-shadow, 0.3s transform;
+  transition: 0.4s background-color, 0.5s box-shadow, 0.3s transform, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+}
+
+button.btnr.light-alice.outlined.hoverd:hover {
+  background-color: #9adaff !important;
+  color: #fff !important;
+}
+
+button.btnr.light-alice.outlined.hoverd:focus {
+  background-color: #9adaff !important;
+  color: #fff !important;
+}
+
+button.btnr.light-alice.outlined.hoverd:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(154, 218, 255, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(154, 218, 255, 0.4);
+}
+
+button.btnr.light-alice.outlined.hoverd:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(154, 218, 255, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(154, 218, 255, 0.4);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.light-bgray {
+  color: #fff;
+  background-color: #a4d1e8;
+}
+
+button.btnr.light-bgray:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(164, 209, 232, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(164, 209, 232, 0.4);
+}
+
+button.btnr.light-bgray:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(164, 209, 232, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(164, 209, 232, 0.4);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.light-bgray.outlined {
+  background-color: transparent;
+  border: 2px solid #a4d1e8;
+  color: #a4d1e8;
+  font-weight: bold;
+}
+
+button.btnr.light-bgray.outlined:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(164, 209, 232, 0.3);
+          box-shadow: 0px 5px 20px 0px rgba(164, 209, 232, 0.3);
+}
+
+button.btnr.light-bgray.outlined:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(164, 209, 232, 0.3);
+          box-shadow: 0px 5px 20px 0px rgba(164, 209, 232, 0.3);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.light-bgray.outlined.hoverd {
+  -webkit-transition: 0.4s background-color, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+  transition: 0.4s background-color, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+  transition: 0.4s background-color, 0.5s box-shadow, 0.3s transform;
+  transition: 0.4s background-color, 0.5s box-shadow, 0.3s transform, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+}
+
+button.btnr.light-bgray.outlined.hoverd:hover {
+  background-color: #a4d1e8 !important;
+  color: #fff !important;
+}
+
+button.btnr.light-bgray.outlined.hoverd:focus {
+  background-color: #a4d1e8 !important;
+  color: #fff !important;
+}
+
+button.btnr.light-bgray.outlined.hoverd:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(164, 209, 232, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(164, 209, 232, 0.4);
+}
+
+button.btnr.light-bgray.outlined.hoverd:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(164, 209, 232, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(164, 209, 232, 0.4);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.light-pink {
+  color: #fff;
+  background-color: #fec6e3;
+}
+
+button.btnr.light-pink:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(254, 198, 227, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(254, 198, 227, 0.4);
+}
+
+button.btnr.light-pink:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(254, 198, 227, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(254, 198, 227, 0.4);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.light-pink.outlined {
+  background-color: transparent;
+  border: 2px solid #fec6e3;
+  color: #fec6e3;
+  font-weight: bold;
+}
+
+button.btnr.light-pink.outlined:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(254, 198, 227, 0.3);
+          box-shadow: 0px 5px 20px 0px rgba(254, 198, 227, 0.3);
+}
+
+button.btnr.light-pink.outlined:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(254, 198, 227, 0.3);
+          box-shadow: 0px 5px 20px 0px rgba(254, 198, 227, 0.3);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.light-pink.outlined.hoverd {
+  -webkit-transition: 0.4s background-color, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+  transition: 0.4s background-color, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+  transition: 0.4s background-color, 0.5s box-shadow, 0.3s transform;
+  transition: 0.4s background-color, 0.5s box-shadow, 0.3s transform, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+}
+
+button.btnr.light-pink.outlined.hoverd:hover {
+  background-color: #fec6e3 !important;
+  color: #fff !important;
+}
+
+button.btnr.light-pink.outlined.hoverd:focus {
+  background-color: #fec6e3 !important;
+  color: #fff !important;
+}
+
+button.btnr.light-pink.outlined.hoverd:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(254, 198, 227, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(254, 198, 227, 0.4);
+}
+
+button.btnr.light-pink.outlined.hoverd:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(254, 198, 227, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(254, 198, 227, 0.4);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.light-orange {
+  color: #fff;
+  background-color: #fed7ae;
+}
+
+button.btnr.light-orange:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(254, 215, 174, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(254, 215, 174, 0.4);
+}
+
+button.btnr.light-orange:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(254, 215, 174, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(254, 215, 174, 0.4);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.light-orange.outlined {
+  background-color: transparent;
+  border: 2px solid #fed7ae;
+  color: #fed7ae;
+  font-weight: bold;
+}
+
+button.btnr.light-orange.outlined:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(254, 215, 174, 0.3);
+          box-shadow: 0px 5px 20px 0px rgba(254, 215, 174, 0.3);
+}
+
+button.btnr.light-orange.outlined:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(254, 215, 174, 0.3);
+          box-shadow: 0px 5px 20px 0px rgba(254, 215, 174, 0.3);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.light-orange.outlined.hoverd {
+  -webkit-transition: 0.4s background-color, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+  transition: 0.4s background-color, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+  transition: 0.4s background-color, 0.5s box-shadow, 0.3s transform;
+  transition: 0.4s background-color, 0.5s box-shadow, 0.3s transform, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+}
+
+button.btnr.light-orange.outlined.hoverd:hover {
+  background-color: #fed7ae !important;
+  color: #fff !important;
+}
+
+button.btnr.light-orange.outlined.hoverd:focus {
+  background-color: #fed7ae !important;
+  color: #fff !important;
+}
+
+button.btnr.light-orange.outlined.hoverd:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(254, 215, 174, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(254, 215, 174, 0.4);
+}
+
+button.btnr.light-orange.outlined.hoverd:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(254, 215, 174, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(254, 215, 174, 0.4);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.mv-prp {
+  color: #fff;
+  background-color: #9e4dcd;
+}
+
+button.btnr.mv-prp:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(158, 77, 205, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(158, 77, 205, 0.4);
+}
+
+button.btnr.mv-prp:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(158, 77, 205, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(158, 77, 205, 0.4);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.mv-prp.outlined {
+  background-color: transparent;
+  border: 2px solid #9e4dcd;
+  color: #9e4dcd;
+  font-weight: bold;
+}
+
+button.btnr.mv-prp.outlined:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(158, 77, 205, 0.3);
+          box-shadow: 0px 5px 20px 0px rgba(158, 77, 205, 0.3);
+}
+
+button.btnr.mv-prp.outlined:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(158, 77, 205, 0.3);
+          box-shadow: 0px 5px 20px 0px rgba(158, 77, 205, 0.3);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.mv-prp.outlined.hoverd {
+  -webkit-transition: 0.4s background-color, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+  transition: 0.4s background-color, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+  transition: 0.4s background-color, 0.5s box-shadow, 0.3s transform;
+  transition: 0.4s background-color, 0.5s box-shadow, 0.3s transform, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+}
+
+button.btnr.mv-prp.outlined.hoverd:hover {
+  background-color: #9e4dcd !important;
+  color: #fff !important;
+}
+
+button.btnr.mv-prp.outlined.hoverd:focus {
+  background-color: #9e4dcd !important;
+  color: #fff !important;
+}
+
+button.btnr.mv-prp.outlined.hoverd:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(158, 77, 205, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(158, 77, 205, 0.4);
+}
+
+button.btnr.mv-prp.outlined.hoverd:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(158, 77, 205, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(158, 77, 205, 0.4);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.light-red {
+  color: #fff;
+  background-color: #ff97a5;
+}
+
+button.btnr.light-red:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(255, 151, 165, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(255, 151, 165, 0.4);
+}
+
+button.btnr.light-red:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(255, 151, 165, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(255, 151, 165, 0.4);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.light-red.outlined {
+  background-color: transparent;
+  border: 2px solid #ff97a5;
+  color: #ff97a5;
+  font-weight: bold;
+}
+
+button.btnr.light-red.outlined:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(255, 151, 165, 0.3);
+          box-shadow: 0px 5px 20px 0px rgba(255, 151, 165, 0.3);
+}
+
+button.btnr.light-red.outlined:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(255, 151, 165, 0.3);
+          box-shadow: 0px 5px 20px 0px rgba(255, 151, 165, 0.3);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.light-red.outlined.hoverd {
+  -webkit-transition: 0.4s background-color, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+  transition: 0.4s background-color, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+  transition: 0.4s background-color, 0.5s box-shadow, 0.3s transform;
+  transition: 0.4s background-color, 0.5s box-shadow, 0.3s transform, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+}
+
+button.btnr.light-red.outlined.hoverd:hover {
+  background-color: #ff97a5 !important;
+  color: #fff !important;
+}
+
+button.btnr.light-red.outlined.hoverd:focus {
+  background-color: #ff97a5 !important;
+  color: #fff !important;
+}
+
+button.btnr.light-red.outlined.hoverd:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(255, 151, 165, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(255, 151, 165, 0.4);
+}
+
+button.btnr.light-red.outlined.hoverd:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(255, 151, 165, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(255, 151, 165, 0.4);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.white {
+  color: #fff;
+  background-color: #fff;
+}
+
+button.btnr.white:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(255, 255, 255, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(255, 255, 255, 0.4);
+}
+
+button.btnr.white:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(255, 255, 255, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(255, 255, 255, 0.4);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.white.outlined {
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  font-weight: bold;
+}
+
+button.btnr.white.outlined:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(255, 255, 255, 0.3);
+          box-shadow: 0px 5px 20px 0px rgba(255, 255, 255, 0.3);
+}
+
+button.btnr.white.outlined:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(255, 255, 255, 0.3);
+          box-shadow: 0px 5px 20px 0px rgba(255, 255, 255, 0.3);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.white.outlined.hoverd {
+  -webkit-transition: 0.4s background-color, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+  transition: 0.4s background-color, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+  transition: 0.4s background-color, 0.5s box-shadow, 0.3s transform;
+  transition: 0.4s background-color, 0.5s box-shadow, 0.3s transform, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+}
+
+button.btnr.white.outlined.hoverd:hover {
+  background-color: #fff !important;
+  color: #fff !important;
+}
+
+button.btnr.white.outlined.hoverd:focus {
+  background-color: #fff !important;
+  color: #fff !important;
+}
+
+button.btnr.white.outlined.hoverd:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(255, 255, 255, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(255, 255, 255, 0.4);
+}
+
+button.btnr.white.outlined.hoverd:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(255, 255, 255, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(255, 255, 255, 0.4);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.dark {
+  color: #fff;
+  background-color: #000;
+}
+
+button.btnr.dark:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.4);
+}
+
+button.btnr.dark:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.4);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.dark.outlined {
+  background-color: transparent;
+  border: 2px solid #000;
+  color: #000;
+  font-weight: bold;
+}
+
+button.btnr.dark.outlined:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.3);
+          box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.3);
+}
+
+button.btnr.dark.outlined:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.3);
+          box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.3);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.dark.outlined.hoverd {
+  -webkit-transition: 0.4s background-color, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+  transition: 0.4s background-color, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+  transition: 0.4s background-color, 0.5s box-shadow, 0.3s transform;
+  transition: 0.4s background-color, 0.5s box-shadow, 0.3s transform, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+}
+
+button.btnr.dark.outlined.hoverd:hover {
+  background-color: #000 !important;
+  color: #fff !important;
+}
+
+button.btnr.dark.outlined.hoverd:focus {
+  background-color: #000 !important;
+  color: #fff !important;
+}
+
+button.btnr.dark.outlined.hoverd:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.4);
+}
+
+button.btnr.dark.outlined.hoverd:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.4);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.darkGr {
+  color: #fff;
+  background-color: #333;
+}
+
+button.btnr.darkGr:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(51, 51, 51, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(51, 51, 51, 0.4);
+}
+
+button.btnr.darkGr:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(51, 51, 51, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(51, 51, 51, 0.4);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.darkGr.outlined {
+  background-color: transparent;
+  border: 2px solid #333;
+  color: #333;
+  font-weight: bold;
+}
+
+button.btnr.darkGr.outlined:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(51, 51, 51, 0.3);
+          box-shadow: 0px 5px 20px 0px rgba(51, 51, 51, 0.3);
+}
+
+button.btnr.darkGr.outlined:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(51, 51, 51, 0.3);
+          box-shadow: 0px 5px 20px 0px rgba(51, 51, 51, 0.3);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.darkGr.outlined.hoverd {
+  -webkit-transition: 0.4s background-color, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+  transition: 0.4s background-color, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+  transition: 0.4s background-color, 0.5s box-shadow, 0.3s transform;
+  transition: 0.4s background-color, 0.5s box-shadow, 0.3s transform, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+}
+
+button.btnr.darkGr.outlined.hoverd:hover {
+  background-color: #333 !important;
+  color: #fff !important;
+}
+
+button.btnr.darkGr.outlined.hoverd:focus {
+  background-color: #333 !important;
+  color: #fff !important;
+}
+
+button.btnr.darkGr.outlined.hoverd:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(51, 51, 51, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(51, 51, 51, 0.4);
+}
+
+button.btnr.darkGr.outlined.hoverd:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(51, 51, 51, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(51, 51, 51, 0.4);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.fba {
+  color: #fff;
+  background-color: #f2f2f2;
+}
+
+button.btnr.fba:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(242, 242, 242, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(242, 242, 242, 0.4);
+}
+
+button.btnr.fba:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(242, 242, 242, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(242, 242, 242, 0.4);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.fba.outlined {
+  background-color: transparent;
+  border: 2px solid #f2f2f2;
+  color: #f2f2f2;
+  font-weight: bold;
+}
+
+button.btnr.fba.outlined:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(242, 242, 242, 0.3);
+          box-shadow: 0px 5px 20px 0px rgba(242, 242, 242, 0.3);
+}
+
+button.btnr.fba.outlined:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(242, 242, 242, 0.3);
+          box-shadow: 0px 5px 20px 0px rgba(242, 242, 242, 0.3);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.fba.outlined.hoverd {
+  -webkit-transition: 0.4s background-color, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+  transition: 0.4s background-color, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+  transition: 0.4s background-color, 0.5s box-shadow, 0.3s transform;
+  transition: 0.4s background-color, 0.5s box-shadow, 0.3s transform, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+}
+
+button.btnr.fba.outlined.hoverd:hover {
+  background-color: #f2f2f2 !important;
+  color: #fff !important;
+}
+
+button.btnr.fba.outlined.hoverd:focus {
+  background-color: #f2f2f2 !important;
+  color: #fff !important;
+}
+
+button.btnr.fba.outlined.hoverd:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(242, 242, 242, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(242, 242, 242, 0.4);
+}
+
+button.btnr.fba.outlined.hoverd:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(242, 242, 242, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(242, 242, 242, 0.4);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.grey-5 {
+  color: #fff;
+  background-color: #6b7280;
+}
+
+button.btnr.grey-5:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(107, 114, 128, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(107, 114, 128, 0.4);
+}
+
+button.btnr.grey-5:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(107, 114, 128, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(107, 114, 128, 0.4);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.grey-5.outlined {
+  background-color: transparent;
+  border: 2px solid #6b7280;
+  color: #6b7280;
+  font-weight: bold;
+}
+
+button.btnr.grey-5.outlined:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(107, 114, 128, 0.3);
+          box-shadow: 0px 5px 20px 0px rgba(107, 114, 128, 0.3);
+}
+
+button.btnr.grey-5.outlined:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(107, 114, 128, 0.3);
+          box-shadow: 0px 5px 20px 0px rgba(107, 114, 128, 0.3);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.grey-5.outlined.hoverd {
+  -webkit-transition: 0.4s background-color, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+  transition: 0.4s background-color, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+  transition: 0.4s background-color, 0.5s box-shadow, 0.3s transform;
+  transition: 0.4s background-color, 0.5s box-shadow, 0.3s transform, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+}
+
+button.btnr.grey-5.outlined.hoverd:hover {
+  background-color: #6b7280 !important;
+  color: #fff !important;
+}
+
+button.btnr.grey-5.outlined.hoverd:focus {
+  background-color: #6b7280 !important;
+  color: #fff !important;
+}
+
+button.btnr.grey-5.outlined.hoverd:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(107, 114, 128, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(107, 114, 128, 0.4);
+}
+
+button.btnr.grey-5.outlined.hoverd:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(107, 114, 128, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(107, 114, 128, 0.4);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.grey-4 {
+  color: #fff;
+  background-color: #e3e7ed;
+}
+
+button.btnr.grey-4:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(227, 231, 237, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(227, 231, 237, 0.4);
+}
+
+button.btnr.grey-4:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(227, 231, 237, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(227, 231, 237, 0.4);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.grey-4.outlined {
+  background-color: transparent;
+  border: 2px solid #e3e7ed;
+  color: #e3e7ed;
+  font-weight: bold;
+}
+
+button.btnr.grey-4.outlined:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(227, 231, 237, 0.3);
+          box-shadow: 0px 5px 20px 0px rgba(227, 231, 237, 0.3);
+}
+
+button.btnr.grey-4.outlined:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(227, 231, 237, 0.3);
+          box-shadow: 0px 5px 20px 0px rgba(227, 231, 237, 0.3);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.grey-4.outlined.hoverd {
+  -webkit-transition: 0.4s background-color, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+  transition: 0.4s background-color, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+  transition: 0.4s background-color, 0.5s box-shadow, 0.3s transform;
+  transition: 0.4s background-color, 0.5s box-shadow, 0.3s transform, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+}
+
+button.btnr.grey-4.outlined.hoverd:hover {
+  background-color: #e3e7ed !important;
+  color: #fff !important;
+}
+
+button.btnr.grey-4.outlined.hoverd:focus {
+  background-color: #e3e7ed !important;
+  color: #fff !important;
+}
+
+button.btnr.grey-4.outlined.hoverd:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(227, 231, 237, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(227, 231, 237, 0.4);
+}
+
+button.btnr.grey-4.outlined.hoverd:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(227, 231, 237, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(227, 231, 237, 0.4);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btni {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+  max-width: 50px;
+  border-radius: 50%;
+  border: none;
+  background-color: #d6d6d6;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition: 0.2s -webkit-transform;
+  transition: 0.2s -webkit-transform;
+  transition: 0.2s transform;
+  transition: 0.2s transform, 0.2s -webkit-transform;
+  outline: none;
+  cursor: pointer;
+  color: #fff;
+  font-size: 1em;
+}
+
+button.btni a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button.btni.disabled::after {
+  position: absolute;
+  z-index: 99;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+  background-color: rgba(0, 0, 0, 0.1);
+  cursor: not-allowed;
+}
+
+button.btni.disabled:hover span {
+  -webkit-transform: none !important;
+          transform: none !important;
+  -webkit-clip-path: none !important;
+          clip-path: none !important;
+}
+
+button.btni.disabled:hover i {
+  -webkit-transform: none !important;
+          transform: none !important;
+}
+
+button.btni a {
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+button.btni i,
+button.btni img,
+button.btni svg {
+  width: 40% !important;
+  height: 40% !important;
+}
+
+button.btni::before {
+  position: absolute;
+  width: 200%;
+  height: 200%;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  content: "";
+  border-radius: 50%;
+  -webkit-transition: 2s opacity, 0.4s -webkit-clip-path;
+  transition: 2s opacity, 0.4s -webkit-clip-path;
+  transition: 0.4s clip-path, 2s opacity;
+  transition: 0.4s clip-path, 2s opacity, 0.4s -webkit-clip-path;
+  -webkit-clip-path: circle(0% at 50% 50%);
+          clip-path: circle(0% at 50% 50%);
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+button.btni:focus::before {
+  -webkit-animation: cl50 0.5s;
+          animation: cl50 0.5s;
+}
+
+button.btni.delete i {
+  content: url("../../icons/icons-btns/delete.svg") !important;
+}
+
+button.btni.check i {
+  content: url("../../icons/icons-btns/check.svg") !important;
+}
+
+button.btni.save i {
+  content: url("../../icons/icons-btns/save.svg") !important;
+}
+
+button.btni.talk i {
+  content: url("../../icons/icons-btns/talk.svg") !important;
+}
+
+button.btni.plus i {
+  content: url("../../icons/icons-btns/plus.svg") !important;
+}
+
+button.btni.bookmark i {
+  content: url("../../icons/icons-btns/bookmark.svg") !important;
+  width: 36% !important;
+  height: 36% !important;
+}
+
+button.btni.reload i {
+  content: url("../../icons/icons-btns/reload.svg") !important;
+}
+
+button.btni.edit i {
+  content: url("../../icons/icons-btns/edit.svg") !important;
+}
+
+button.btni.copy i {
+  content: url("../../icons/icons-btns/copy.svg") !important;
+}
+
+button.btni.share i {
+  content: url("../../icons/icons-btns/share.svg") !important;
+}
+
+button.btni.attch i {
+  content: url("../../icons/icons-btns/attch.svg") !important;
+}
+
+button.btni.send i {
+  content: url("../../icons/icons-btns/send.svg") !important;
+}
+
+button.btni.cart i {
+  content: url("../../icons/icons-btns/cart.svg") !important;
+}
+
+button.btni.back i {
+  content: url("../../icons/icons-btns/back.svg") !important;
+}
+
+button.btni.bell i {
+  content: url("../../icons/icons-btns/bell.svg") !important;
+}
+
+button.btni.exclamation i {
+  content: url("../../icons/icons-btns/exclamation.svg") !important;
+}
+
+button.btni.facebook {
+  background-color: #3b5998;
+}
+
+button.btni.facebook i {
+  content: url("../../icons/icons-btns/social-media/facebook.svg");
+  -webkit-filter: invert(99%) sepia(26%) saturate(2%) hue-rotate(240deg) brightness(112%) contrast(101%) !important;
+          filter: invert(99%) sepia(26%) saturate(2%) hue-rotate(240deg) brightness(112%) contrast(101%) !important;
+}
+
+button.btni.twitter {
+  background-color: #1da1f2;
+}
+
+button.btni.twitter i {
+  width: 50% !important;
+  height: 50% !important;
+  content: url("../../icons/icons-btns/social-media/twitter.svg");
+  -webkit-filter: invert(99%) sepia(26%) saturate(2%) hue-rotate(240deg) brightness(112%) contrast(101%) !important;
+          filter: invert(99%) sepia(26%) saturate(2%) hue-rotate(240deg) brightness(112%) contrast(101%) !important;
+}
+
+button.btni.youtube {
+  background-color: #ff0000;
+}
+
+button.btni.youtube i {
+  width: 50% !important;
+  height: 50% !important;
+  content: url("../../icons/icons-btns/social-media/youtube.svg");
+  -webkit-filter: invert(99%) sepia(26%) saturate(2%) hue-rotate(240deg) brightness(112%) contrast(101%) !important;
+          filter: invert(99%) sepia(26%) saturate(2%) hue-rotate(240deg) brightness(112%) contrast(101%) !important;
+}
+
+button.btni.github {
+  background-color: #24292e;
+}
+
+button.btni.github i {
+  width: 50% !important;
+  height: 50% !important;
+  content: url("../../icons/icons-btns/social-media/github.svg");
+  -webkit-filter: invert(99%) sepia(26%) saturate(2%) hue-rotate(240deg) brightness(112%) contrast(101%) !important;
+          filter: invert(99%) sepia(26%) saturate(2%) hue-rotate(240deg) brightness(112%) contrast(101%) !important;
+}
+
+button.btni.whatsapp {
+  background-color: #25d366;
+}
+
+button.btni.whatsapp i {
+  width: 50% !important;
+  height: 50% !important;
+  content: url("../../icons/icons-btns/social-media/whatsapp.svg");
+  -webkit-filter: invert(99%) sepia(26%) saturate(2%) hue-rotate(240deg) brightness(112%) contrast(101%) !important;
+          filter: invert(99%) sepia(26%) saturate(2%) hue-rotate(240deg) brightness(112%) contrast(101%) !important;
+}
+
+button.btni.instagram {
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
+}
+
+button.btni.instagram i {
+  width: 50% !important;
+  height: 50% !important;
+  content: url("../../icons/icons-btns/social-media/instagram.svg");
+  -webkit-filter: invert(99%) sepia(26%) saturate(2%) hue-rotate(240deg) brightness(112%) contrast(101%) !important;
+          filter: invert(99%) sepia(26%) saturate(2%) hue-rotate(240deg) brightness(112%) contrast(101%) !important;
+}
+
+button.btni.danger {
+  background-color: #e74c3c;
+  color: #fff;
+}
+
+button.btni.success {
+  background-color: #2ecc71;
+  color: #fff;
+}
+
+button.btni.warning {
+  background-color: #f1c40f;
+  color: #fff;
+}
+
+button.btni.primary {
+  background-color: #30336b;
+  color: #fff;
+}
+
+button.btni.secondry {
+  background-color: #a8acb1;
+  color: #fff;
+}
+
+button.btni.details {
+  background-color: #409efb;
+  color: #fff;
+}
+
+button.btni.roguePinky {
+  background-color: #f8a5c2;
+  color: #fff;
+}
+
+button.btni.squzaky {
+  background-color: #63cdda;
+  color: #fff;
+}
+
+button.btni.creamyPeach {
+  background-color: #f3a683;
+  color: #fff;
+}
+
+button.btni.softBlue {
+  background-color: #778beb;
+  color: #fff;
+}
+
+button.btni.dragon {
+  background-color: #ff9f43;
+  color: #fff;
+}
+
+button.btni.marineblue {
+  background-color: #0652dd;
+  color: #fff;
+}
+
+button.btni.greenDes {
+  background-color: #23ce99;
+  color: #fff;
+}
+
+button.btni.lightred {
+  background-color: #ff4f6b;
+  color: #fff;
+}
+
+button.btni.android {
+  background-color: #a3cb38;
+  color: #fff;
+}
+
+button.btni.pixelatedgrass {
+  background-color: #009432;
+  color: #fff;
+}
+
+button.btni.eyeofnewt {
+  background-color: #b33939;
+  color: #fff;
+}
+
+button.btni.summersky {
+  background-color: #34ace0;
+  color: #fff;
+}
+
+button.btni.spipeanut {
+  background-color: #ffda79;
+  color: #fff;
+}
+
+button.btni.chileanfire {
+  background-color: #cd6133;
+  color: #fff;
+}
+
+button.btni.baywhraf {
+  background-color: #747d8c;
+  color: #fff;
+}
+
+button.btni.cpurple {
+  background-color: #6868ee;
+  color: #fff;
+}
+
+button.btni.light-green {
+  background-color: #73ffd6;
+  color: #fff;
+}
+
+button.btni.light-blue {
+  background-color: #9fc1ff;
+  color: #fff;
+}
+
+button.btni.light-blue-solid {
+  background-color: #adc0ea;
+  color: #fff;
+}
+
+button.btni.light-alice {
+  background-color: #9adaff;
+  color: #fff;
+}
+
+button.btni.light-bgray {
+  background-color: #a4d1e8;
+  color: #fff;
+}
+
+button.btni.light-pink {
+  background-color: #fec6e3;
+  color: #fff;
+}
+
+button.btni.light-orange {
+  background-color: #fed7ae;
+  color: #fff;
+}
+
+button.btni.mv-prp {
+  background-color: #9e4dcd;
+  color: #fff;
+}
+
+button.btni.light-red {
+  background-color: #ff97a5;
+  color: #fff;
+}
+
+button.btni.white {
+  background-color: #fff;
+  color: #fff;
+}
+
+button.btni.dark {
+  background-color: #000;
+  color: #fff;
+}
+
+button.btni.darkGr {
+  background-color: #333;
+  color: #fff;
+}
+
+button.btni.fba {
+  background-color: #f2f2f2;
+  color: #fff;
+}
+
+button.btni.grey-5 {
+  background-color: #6b7280;
+  color: #fff;
+}
+
+button.btni.grey-4 {
+  background-color: #e3e7ed;
+  color: #fff;
+}
+
+.btn-grp {
+  position: relative;
+  width: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transition: 0.1s -webkit-transform;
+  transition: 0.1s -webkit-transform;
+  transition: 0.1s transform;
+  transition: 0.1s transform, 0.1s -webkit-transform;
+}
+
+.btn-grp button {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  margin: 0;
+  border-radius: 0 !important;
+  padding: 0.5rem 1.5rem;
+}
+
+.btn-grp button:active {
+  -webkit-transform: scale(1) !important;
+          transform: scale(1) !important;
+}
+
+.btn-grp button.outlined {
+  border-width: 0 !important;
+}
+
+.btn-grp button.outlined::before {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.btn-grp button.outlined.hoverd::before {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.btn-grp button.outlined:first-of-type {
+  border-top-left-radius: 5px !important;
+  border-bottom-left-radius: 5px !important;
+  border-left-width: 2px !important;
+  border-top-width: 2px !important;
+  border-bottom-width: 2px !important;
+  border-right-width: 1px !important;
+}
+
+.btn-grp button.outlined:last-of-type {
+  border-top-right-radius: 5px !important;
+  border-bottom-right-radius: 5px !important;
+  border-right-width: 2px !important;
+  border-top-width: 2px !important;
+  border-bottom-width: 2px !important;
+  border-left-width: 1px !important;
+}
+
+.btn-grp button.outlined:not(:first-of-type):not(:last-of-type) {
+  margin: 0 !important;
+  border-top-width: 2px !important;
+  border-bottom-width: 2px !important;
+  border-left-width: 1px !important;
+  border-right-width: 1px !important;
+}
+
+.btn-grp button:hover {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+.btn-grp button:focus {
+  -webkit-transform: none !important;
+          transform: none !important;
+}
+
+.btn-grp button:focus::before {
+  -webkit-animation: cl50 0.5s 0s;
+          animation: cl50 0.5s 0s;
+}
+
+.btn-grp button::before {
+  position: absolute;
+  width: 200%;
+  height: 200%;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  content: "";
+  border-radius: 50%;
+  -webkit-transition: 2s opacity, 0.4s -webkit-clip-path;
+  transition: 2s opacity, 0.4s -webkit-clip-path;
+  transition: 0.4s clip-path, 2s opacity;
+  transition: 0.4s clip-path, 2s opacity, 0.4s -webkit-clip-path;
+  -webkit-clip-path: circle(0% at 50% 50%);
+          clip-path: circle(0% at 50% 50%);
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.btn-grp button:first-of-type {
+  border-top-left-radius: 5px !important;
+  border-bottom-left-radius: 5px !important;
+}
+
+.btn-grp button:first-of-type::before {
+  width: 300%;
+  height: 300%;
+  top: -20%;
+  left: -150%;
+  -webkit-transform: translate(0%, 0%);
+          transform: translate(0%, 0%);
+}
+
+.btn-grp button:last-of-type {
+  border-top-right-radius: 5px !important;
+  border-bottom-right-radius: 5px !important;
+}
+
+.btn-grp button:last-of-type::before {
+  width: 300%;
+  height: 300%;
+  top: -25%;
+  left: -45%;
+  -webkit-transform: translate(0%, 0%);
+          transform: translate(0%, 0%);
+}
+
+.btn-grp button:not(:first-of-type):not(:last-of-type) {
+  margin: 0 0.1em;
+}
+
+@media (max-width: 768px) {
+  button {
+    cursor: default !important;
+  }
+}
+/*# sourceMappingURL=buttons.min.css.map */

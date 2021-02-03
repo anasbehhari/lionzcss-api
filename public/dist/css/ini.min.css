@@ -1,0 +1,613 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
+.danger {
+  color: #e74c3c;
+}
+
+.danger-bg {
+  background-color: #e74c3c !important;
+}
+
+.success {
+  color: #2ecc71;
+}
+
+.success-bg {
+  background-color: #2ecc71 !important;
+}
+
+.warning {
+  color: #f1c40f;
+}
+
+.warning-bg {
+  background-color: #f1c40f !important;
+}
+
+.primary {
+  color: #30336b;
+}
+
+.primary-bg {
+  background-color: #30336b !important;
+}
+
+.secondry {
+  color: #a8acb1;
+}
+
+.secondry-bg {
+  background-color: #a8acb1 !important;
+}
+
+.details {
+  color: #409efb;
+}
+
+.details-bg {
+  background-color: #409efb !important;
+}
+
+.roguePinky {
+  color: #f8a5c2;
+}
+
+.roguePinky-bg {
+  background-color: #f8a5c2 !important;
+}
+
+.squzaky {
+  color: #63cdda;
+}
+
+.squzaky-bg {
+  background-color: #63cdda !important;
+}
+
+.creamyPeach {
+  color: #f3a683;
+}
+
+.creamyPeach-bg {
+  background-color: #f3a683 !important;
+}
+
+.softBlue {
+  color: #778beb;
+}
+
+.softBlue-bg {
+  background-color: #778beb !important;
+}
+
+.dragon {
+  color: #ff9f43;
+}
+
+.dragon-bg {
+  background-color: #ff9f43 !important;
+}
+
+.marineblue {
+  color: #0652dd;
+}
+
+.marineblue-bg {
+  background-color: #0652dd !important;
+}
+
+.greenDes {
+  color: #23ce99;
+}
+
+.greenDes-bg {
+  background-color: #23ce99 !important;
+}
+
+.lightred {
+  color: #ff4f6b;
+}
+
+.lightred-bg {
+  background-color: #ff4f6b !important;
+}
+
+.android {
+  color: #a3cb38;
+}
+
+.android-bg {
+  background-color: #a3cb38 !important;
+}
+
+.pixelatedgrass {
+  color: #009432;
+}
+
+.pixelatedgrass-bg {
+  background-color: #009432 !important;
+}
+
+.eyeofnewt {
+  color: #b33939;
+}
+
+.eyeofnewt-bg {
+  background-color: #b33939 !important;
+}
+
+.summersky {
+  color: #34ace0;
+}
+
+.summersky-bg {
+  background-color: #34ace0 !important;
+}
+
+.spipeanut {
+  color: #ffda79;
+}
+
+.spipeanut-bg {
+  background-color: #ffda79 !important;
+}
+
+.chileanfire {
+  color: #cd6133;
+}
+
+.chileanfire-bg {
+  background-color: #cd6133 !important;
+}
+
+.baywhraf {
+  color: #747d8c;
+}
+
+.baywhraf-bg {
+  background-color: #747d8c !important;
+}
+
+.cpurple {
+  color: #6868ee;
+}
+
+.cpurple-bg {
+  background-color: #6868ee !important;
+}
+
+.light-green {
+  color: #73ffd6;
+}
+
+.light-green-bg {
+  background-color: #73ffd6 !important;
+}
+
+.light-blue {
+  color: #9fc1ff;
+}
+
+.light-blue-bg {
+  background-color: #9fc1ff !important;
+}
+
+.light-blue-solid {
+  color: #adc0ea;
+}
+
+.light-blue-solid-bg {
+  background-color: #adc0ea !important;
+}
+
+.light-alice {
+  color: #9adaff;
+}
+
+.light-alice-bg {
+  background-color: #9adaff !important;
+}
+
+.light-bgray {
+  color: #a4d1e8;
+}
+
+.light-bgray-bg {
+  background-color: #a4d1e8 !important;
+}
+
+.light-pink {
+  color: #fec6e3;
+}
+
+.light-pink-bg {
+  background-color: #fec6e3 !important;
+}
+
+.light-orange {
+  color: #fed7ae;
+}
+
+.light-orange-bg {
+  background-color: #fed7ae !important;
+}
+
+.mv-prp {
+  color: #9e4dcd;
+}
+
+.mv-prp-bg {
+  background-color: #9e4dcd !important;
+}
+
+.light-red {
+  color: #ff97a5;
+}
+
+.light-red-bg {
+  background-color: #ff97a5 !important;
+}
+
+.white {
+  color: #fff;
+}
+
+.white-bg {
+  background-color: #fff !important;
+}
+
+.dark {
+  color: #000;
+}
+
+.dark-bg {
+  background-color: #000 !important;
+}
+
+.darkGr {
+  color: #333;
+}
+
+.darkGr-bg {
+  background-color: #333 !important;
+}
+
+.fba {
+  color: #f2f2f2;
+}
+
+.fba-bg {
+  background-color: #f2f2f2 !important;
+}
+
+.grey-5 {
+  color: #6b7280;
+}
+
+.grey-5-bg {
+  background-color: #6b7280 !important;
+}
+
+.grey-4 {
+  color: #e3e7ed;
+}
+
+.grey-4-bg {
+  background-color: #e3e7ed !important;
+}
+
+i.icon-facebook {
+  content: url("../../icons/icons-btns/social-media/facebook.svg");
+  width: 1rem;
+  height: 1rem;
+}
+
+i.icon-instagram {
+  content: url("../../icons/icons-btns/social-media/instagram.svg");
+  width: 1rem;
+  height: 1rem;
+}
+
+i.icon-linkedin {
+  content: url("../../icons/icons-btns/social-media/linkedin.svg");
+  width: 1rem;
+  height: 1rem;
+}
+
+i.icon-github {
+  content: url("../../icons/icons-btns/social-media/github.svg");
+  width: 1rem;
+  height: 1rem;
+}
+
+i.icon-twitter {
+  content: url("../../icons/icons-btns/social-media/twitter.svg");
+  width: 1rem;
+  height: 1rem;
+}
+
+i.icon-whatsapp {
+  content: url("../../icons/icons-btns/social-media/whatsapp.svg");
+  width: 1rem;
+  height: 1rem;
+}
+
+i.icon-dribbble {
+  content: url("../../icons/icons-btns/social-media/dribbble.svg");
+  width: 1rem;
+  height: 1rem;
+}
+
+i.icon-youtube {
+  content: url("../../icons/icons-btns/social-media/youtube.svg");
+  width: 1rem;
+  height: 1rem;
+}
+
+i.icon-behance {
+  content: url("../../icons/icons-btns/social-media/behance.svg");
+  width: 1rem;
+  height: 1rem;
+}
+
+i.icon-Asterisk {
+  content: url("../../icons/icons-btns/alm.svg");
+  width: 1rem;
+  height: 1rem;
+}
+
+i.icon-attch {
+  content: url("../../icons/icons-btns/attch.svg");
+  width: 1rem;
+  height: 1rem;
+}
+
+i.icon-back {
+  content: url("../../icons/icons-btns/back.svg");
+  width: 1rem;
+  height: 1rem;
+}
+
+i.icon-bell {
+  content: url("../../icons/icons-btns/bell.svg");
+  width: 1rem;
+  height: 1rem;
+}
+
+i.icon-bookmark {
+  content: url("../../icons/icons-btns/bookmark.svg");
+  width: 1rem;
+  height: 1rem;
+}
+
+i.icon-buy {
+  content: url("../../icons/icons-btns/buy.svg");
+  width: 1rem;
+  height: 1rem;
+}
+
+i.icon-cart {
+  content: url("../../icons/icons-btns/cart.svg");
+  width: 1rem;
+  height: 1rem;
+}
+
+i.icon-check {
+  content: url("../../icons/icons-btns/check.svg");
+  width: 1rem;
+  height: 1rem;
+}
+
+i.icon-close {
+  content: url("../../icons/icons-btns/close.svg");
+  width: 1rem;
+  height: 1rem;
+}
+
+i.icon-copy {
+  content: url("../../icons/icons-btns/copy.svg");
+  width: 1rem;
+  height: 1rem;
+}
+
+i.icon-danger {
+  content: url("../../icons/icons-btns/danger.svg");
+  width: 1rem;
+  height: 1rem;
+}
+
+i.icon-delete {
+  content: url("../../icons/icons-btns/delete.svg");
+  width: 1rem;
+  height: 1rem;
+}
+
+i.icon-down {
+  content: url("../../icons/icons-btns/down.svg");
+  width: 1rem;
+  height: 1rem;
+}
+
+i.icon-edit {
+  content: url("../../icons/icons-btns/edit.svg");
+  width: 1rem;
+  height: 1rem;
+}
+
+i.icon-info {
+  content: url("../../icons/icons-btns/info.svg");
+  width: 1rem;
+  height: 1rem;
+}
+
+i.icon-plus {
+  content: url("../../icons/icons-btns/plus.svg");
+  width: 1rem;
+  height: 1rem;
+}
+
+i.icon-reload {
+  content: url("../../icons/icons-btns/reload.svg");
+  width: 1rem;
+  height: 1rem;
+}
+
+i.icon-save {
+  content: url("../../icons/icons-btns/save.svg");
+  width: 1rem;
+  height: 1rem;
+}
+
+i.icon-search {
+  content: url("../../icons/icons-btns/search.svg");
+  width: 1rem;
+  height: 1rem;
+}
+
+i.icon-send {
+  content: url("../../icons/icons-btns/send.svg");
+  width: 1rem;
+  height: 1rem;
+}
+
+i.icon-settings {
+  content: url("../../icons/icons-btns/settings.svg");
+  width: 1rem;
+  height: 1rem;
+}
+
+i.icon-share {
+  content: url("../../icons/icons-btns/share.svg");
+  width: 1rem;
+  height: 1rem;
+}
+
+i.icon-success {
+  content: url("../../icons/icons-btns/success.svg");
+  width: 1rem;
+  height: 1rem;
+}
+
+i.icon-talk {
+  content: url("../../icons/icons-btns/talk.svg");
+  width: 1rem;
+  height: 1rem;
+}
+
+i.icon-up {
+  content: url("../../icons/icons-btns/up.svg");
+  width: 1rem;
+  height: 1rem;
+}
+
+i.icon-warning {
+  content: url("../../icons/icons-btns/warning.svg");
+  width: 1rem;
+  height: 1rem;
+}
+
+i.icon-exclamation {
+  content: url("../../icons/icons-btns/exclamation.svg");
+  width: 1rem;
+  height: 1rem;
+}
+
+i.primary {
+  -webkit-filter: invert(19%) sepia(36%) saturate(1302%) hue-rotate(201deg) brightness(90%) contrast(92%) !important;
+          filter: invert(19%) sepia(36%) saturate(1302%) hue-rotate(201deg) brightness(90%) contrast(92%) !important;
+}
+
+i.secondry {
+  -webkit-filter: invert(77%) sepia(13%) saturate(111%) hue-rotate(174deg) brightness(89%) contrast(85%);
+          filter: invert(77%) sepia(13%) saturate(111%) hue-rotate(174deg) brightness(89%) contrast(85%);
+}
+
+i.white {
+  -webkit-filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(77deg) brightness(104%) contrast(102%);
+          filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(77deg) brightness(104%) contrast(102%);
+}
+
+i.squzaky {
+  -webkit-filter: invert(74%) sepia(96%) saturate(325%) hue-rotate(149deg) brightness(91%) contrast(86%);
+          filter: invert(74%) sepia(96%) saturate(325%) hue-rotate(149deg) brightness(91%) contrast(86%);
+}
+
+i.lightred {
+  -webkit-filter: invert(38%) sepia(94%) saturate(741%) hue-rotate(311deg) brightness(101%) contrast(103%);
+          filter: invert(38%) sepia(94%) saturate(741%) hue-rotate(311deg) brightness(101%) contrast(103%);
+}
+
+i.dragon {
+  -webkit-filter: invert(80%) sepia(15%) saturate(4518%) hue-rotate(325deg) brightness(100%) contrast(104%);
+          filter: invert(80%) sepia(15%) saturate(4518%) hue-rotate(325deg) brightness(100%) contrast(104%);
+}
+
+i.cpurple {
+  -webkit-filter: invert(55%) sepia(88%) saturate(4322%) hue-rotate(221deg) brightness(93%) contrast(100%);
+          filter: invert(55%) sepia(88%) saturate(4322%) hue-rotate(221deg) brightness(93%) contrast(100%);
+}
+
+i.success {
+  -webkit-filter: invert(57%) sepia(63%) saturate(486%) hue-rotate(93deg) brightness(101%) contrast(92%);
+          filter: invert(57%) sepia(63%) saturate(486%) hue-rotate(93deg) brightness(101%) contrast(92%);
+}
+
+i.white {
+  -webkit-filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(84deg) brightness(107%) contrast(101%);
+          filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(84deg) brightness(107%) contrast(101%);
+}
+
+i.details {
+  -webkit-filter: invert(50%) sepia(89%) saturate(1646%) hue-rotate(188deg) brightness(102%) contrast(97%);
+          filter: invert(50%) sepia(89%) saturate(1646%) hue-rotate(188deg) brightness(102%) contrast(97%);
+}
+
+i.danger {
+  -webkit-filter: invert(42%) sepia(37%) saturate(2070%) hue-rotate(330deg) brightness(90%) contrast(101%);
+          filter: invert(42%) sepia(37%) saturate(2070%) hue-rotate(330deg) brightness(90%) contrast(101%);
+}
+
+i.warning {
+  -webkit-filter: invert(77%) sepia(90%) saturate(553%) hue-rotate(346deg) brightness(94%) contrast(100%);
+          filter: invert(77%) sepia(90%) saturate(553%) hue-rotate(346deg) brightness(94%) contrast(100%);
+}
+
+i.darkGr {
+  -webkit-filter: invert(17%) sepia(0%) saturate(1%) hue-rotate(241deg) brightness(84%) contrast(84%);
+          filter: invert(17%) sepia(0%) saturate(1%) hue-rotate(241deg) brightness(84%) contrast(84%);
+}
+
+i.marineblue {
+  -webkit-filter: invert(17%) sepia(57%) saturate(5562%) hue-rotate(218deg) brightness(97%) contrast(95%);
+          filter: invert(17%) sepia(57%) saturate(5562%) hue-rotate(218deg) brightness(97%) contrast(95%);
+}
+
+i.roguePinky {
+  -webkit-filter: invert(81%) sepia(49%) saturate(592%) hue-rotate(290deg) brightness(96%) contrast(103%);
+          filter: invert(81%) sepia(49%) saturate(592%) hue-rotate(290deg) brightness(96%) contrast(103%);
+}
+
+i.creamyPeach {
+  -webkit-filter: invert(67%) sepia(47%) saturate(359%) hue-rotate(332deg) brightness(96%) contrast(98%);
+          filter: invert(67%) sepia(47%) saturate(359%) hue-rotate(332deg) brightness(96%) contrast(98%);
+}
+
+.bold {
+  font-weight: bold !important;
+}
+
+.sm-bold {
+  font-weight: 600 !important;
+}
+
+.center-align {
+  text-align: center;
+}
+
+.left-align {
+  text-align: left;
+}
+
+.right-align {
+  text-align: right;
+}
+/*# sourceMappingURL=ini.min.css.map */

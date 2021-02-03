@@ -1,0 +1,174 @@
+.Alert {
+  position: relative;
+  border-radius: 5px;
+  padding: 2px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  min-width: 400px;
+  transform: translate(0,0);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    transition: .6s transform , .6s opacity;
+    opacity: 1;
+}
+
+.Alert.close-fade-up {
+  transform: translate(0,-8em);
+  opacity: 0;
+}
+.Alert.close-fade-down {
+  transform: translate(0,8em);
+  opacity: 0;
+}
+.Alert.close-fade-left {
+  transform: translate(-8em,0);
+  opacity: 0;
+}
+.Alert.close-fade-right {
+  transform: translate(8em,0);
+  opacity: 0;
+}
+.Alert.danger {
+  background-color: #e74c3c !important;
+}
+
+.Alert.danger .info-wrapper {
+  background-color: #fff5f5 !important;
+}
+
+.Alert.danger .info-wrapper .Alert-title {
+  color: #e74c3c !important;
+}
+
+.Alert.warnning {
+  background-color: #f1c40f !important;
+}
+
+.Alert.warnning .info-wrapper {
+  background-color: #fff9f0 !important;
+}
+
+.Alert.warnning .info-wrapper .Alert-title {
+  color: #f1c40f !important;
+}
+
+.Alert.success {
+  background-color: #2ecc71 !important;
+}
+
+.Alert.success .info-wrapper {
+  background-color: #f0f9ef !important;
+}
+
+.Alert.success .info-wrapper .Alert-title {
+  color: #2ecc71 !important;
+}
+
+.Alert.info {
+  background-color: #1e90ff !important;
+}
+
+.Alert.info .info-wrapper {
+  background-color: #fdfdfd !important;
+}
+
+.Alert.info .info-wrapper .Alert-title {
+  color: #1e90ff !important;
+}
+
+.Alert.fullwidth {
+  width: calc(100% - 40px);
+}
+
+.Alert.halfWidth {
+  width: calc(50% - 40px);
+}
+
+.Alert.fitwidth {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  min-width: 400px;
+}
+
+.Alert .icon {
+  position: relative;
+  width: auto;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  margin: 15px 20px;
+}
+
+.Alert .icon .img {
+  width: 25px;
+  height: 25px;
+  -o-object-fit: contain;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+.Alert .icon .img.warnning {
+  background-image: url("../../icons/icons-btns/warnning.svg");
+   filter: invert(99%) sepia(26%) saturate(2%) hue-rotate(240deg)
+      brightness(112%) contrast(101%) !important;
+}
+
+.Alert .icon .img.success {
+  background-image: url("../../icons/icons-btns/success.svg");
+   filter: invert(99%) sepia(26%) saturate(2%) hue-rotate(240deg)
+      brightness(112%) contrast(101%) !important;
+}
+
+.Alert .icon .img.danger {
+  background-image: url("../../icons/icons-btns/danger.svg");
+   filter: invert(99%) sepia(26%) saturate(2%) hue-rotate(240deg)
+      brightness(112%) contrast(101%) !important;
+}
+
+.Alert .icon .img.info {
+  background-image: url("../../icons/icons-btns/info.svg");
+   filter: invert(99%) sepia(26%) saturate(2%) hue-rotate(240deg)
+      brightness(112%) contrast(101%) !important;
+}
+
+
+.Alert .info-wrapper {
+  position: relative;
+  width: calc(100% - 40px - 25px - 2px);
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  padding: 10px 0;
+}
+
+.Alert .info-wrapper .Alert-title {
+  font-weight: bold;
+  margin-left: 10px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.Alert .info-wrapper .Alert-description {
+  margin-left: 10px;
+  color: #000;
+  font-weight: 400;
+  text-align: left;
+  margin-top: 3px;
+}
+
+@media (max-width: 768px) {
+  .Alert {
+    width: calc(100%) !important;
+    min-width: calc(100%) !important;
+    max-width: calc(100%) !important;
+    
+  }
+}
