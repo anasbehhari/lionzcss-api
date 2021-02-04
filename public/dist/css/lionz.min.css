@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
-@import url(c:\Users\AnadBehhariGRP99\Desktop\lionzcss-f\dist\css\alerts.min.css);
+@import url(e:\lionzcss-api\public\dist\css\alerts.min.css);
 .danger {
   color: #e74c3c;
 }
@@ -294,6 +294,46 @@
 
 .grey-4-bg {
   background-color: #e3e7ed !important;
+}
+
+.facebook {
+  color: #3b5998;
+}
+
+.facebook-bg {
+  background-color: #3b5998 !important;
+}
+
+.twitter {
+  color: #1da1f2;
+}
+
+.twitter-bg {
+  background-color: #1da1f2 !important;
+}
+
+.youtube {
+  color: #ff0000;
+}
+
+.youtube-bg {
+  background-color: #ff0000 !important;
+}
+
+.github {
+  color: #24292e;
+}
+
+.github-bg {
+  background-color: #24292e !important;
+}
+
+.whatsapp {
+  color: #25d366;
+}
+
+.whatsapp-bg {
+  background-color: #25d366 !important;
 }
 
 i.icon-facebook {
@@ -3227,6 +3267,331 @@ button.btnr.grey-4.outlined.hoverd:active {
           transform: scale(0.95);
 }
 
+button.btnr.facebook {
+  color: #fff;
+  background-color: #3b5998;
+}
+
+button.btnr.facebook:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(59, 89, 152, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(59, 89, 152, 0.4);
+}
+
+button.btnr.facebook:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(59, 89, 152, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(59, 89, 152, 0.4);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.facebook.outlined {
+  background-color: transparent;
+  border: 2px solid #3b5998;
+  color: #3b5998;
+  font-weight: bold;
+}
+
+button.btnr.facebook.outlined:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(59, 89, 152, 0.3);
+          box-shadow: 0px 5px 20px 0px rgba(59, 89, 152, 0.3);
+}
+
+button.btnr.facebook.outlined:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(59, 89, 152, 0.3);
+          box-shadow: 0px 5px 20px 0px rgba(59, 89, 152, 0.3);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.facebook.outlined.hoverd {
+  -webkit-transition: 0.4s background-color, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+  transition: 0.4s background-color, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+  transition: 0.4s background-color, 0.5s box-shadow, 0.3s transform;
+  transition: 0.4s background-color, 0.5s box-shadow, 0.3s transform, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+}
+
+button.btnr.facebook.outlined.hoverd:hover {
+  background-color: #3b5998 !important;
+  color: #fff !important;
+}
+
+button.btnr.facebook.outlined.hoverd:focus {
+  background-color: #3b5998 !important;
+  color: #fff !important;
+}
+
+button.btnr.facebook.outlined.hoverd:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(59, 89, 152, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(59, 89, 152, 0.4);
+}
+
+button.btnr.facebook.outlined.hoverd:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(59, 89, 152, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(59, 89, 152, 0.4);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.twitter {
+  color: #fff;
+  background-color: #1da1f2;
+}
+
+button.btnr.twitter:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(29, 161, 242, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(29, 161, 242, 0.4);
+}
+
+button.btnr.twitter:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(29, 161, 242, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(29, 161, 242, 0.4);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.twitter.outlined {
+  background-color: transparent;
+  border: 2px solid #1da1f2;
+  color: #1da1f2;
+  font-weight: bold;
+}
+
+button.btnr.twitter.outlined:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(29, 161, 242, 0.3);
+          box-shadow: 0px 5px 20px 0px rgba(29, 161, 242, 0.3);
+}
+
+button.btnr.twitter.outlined:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(29, 161, 242, 0.3);
+          box-shadow: 0px 5px 20px 0px rgba(29, 161, 242, 0.3);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.twitter.outlined.hoverd {
+  -webkit-transition: 0.4s background-color, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+  transition: 0.4s background-color, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+  transition: 0.4s background-color, 0.5s box-shadow, 0.3s transform;
+  transition: 0.4s background-color, 0.5s box-shadow, 0.3s transform, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+}
+
+button.btnr.twitter.outlined.hoverd:hover {
+  background-color: #1da1f2 !important;
+  color: #fff !important;
+}
+
+button.btnr.twitter.outlined.hoverd:focus {
+  background-color: #1da1f2 !important;
+  color: #fff !important;
+}
+
+button.btnr.twitter.outlined.hoverd:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(29, 161, 242, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(29, 161, 242, 0.4);
+}
+
+button.btnr.twitter.outlined.hoverd:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(29, 161, 242, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(29, 161, 242, 0.4);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.youtube {
+  color: #fff;
+  background-color: #ff0000;
+}
+
+button.btnr.youtube:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(255, 0, 0, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(255, 0, 0, 0.4);
+}
+
+button.btnr.youtube:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(255, 0, 0, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(255, 0, 0, 0.4);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.youtube.outlined {
+  background-color: transparent;
+  border: 2px solid #ff0000;
+  color: #ff0000;
+  font-weight: bold;
+}
+
+button.btnr.youtube.outlined:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(255, 0, 0, 0.3);
+          box-shadow: 0px 5px 20px 0px rgba(255, 0, 0, 0.3);
+}
+
+button.btnr.youtube.outlined:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(255, 0, 0, 0.3);
+          box-shadow: 0px 5px 20px 0px rgba(255, 0, 0, 0.3);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.youtube.outlined.hoverd {
+  -webkit-transition: 0.4s background-color, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+  transition: 0.4s background-color, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+  transition: 0.4s background-color, 0.5s box-shadow, 0.3s transform;
+  transition: 0.4s background-color, 0.5s box-shadow, 0.3s transform, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+}
+
+button.btnr.youtube.outlined.hoverd:hover {
+  background-color: #ff0000 !important;
+  color: #fff !important;
+}
+
+button.btnr.youtube.outlined.hoverd:focus {
+  background-color: #ff0000 !important;
+  color: #fff !important;
+}
+
+button.btnr.youtube.outlined.hoverd:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(255, 0, 0, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(255, 0, 0, 0.4);
+}
+
+button.btnr.youtube.outlined.hoverd:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(255, 0, 0, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(255, 0, 0, 0.4);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.github {
+  color: #fff;
+  background-color: #24292e;
+}
+
+button.btnr.github:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(36, 41, 46, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(36, 41, 46, 0.4);
+}
+
+button.btnr.github:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(36, 41, 46, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(36, 41, 46, 0.4);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.github.outlined {
+  background-color: transparent;
+  border: 2px solid #24292e;
+  color: #24292e;
+  font-weight: bold;
+}
+
+button.btnr.github.outlined:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(36, 41, 46, 0.3);
+          box-shadow: 0px 5px 20px 0px rgba(36, 41, 46, 0.3);
+}
+
+button.btnr.github.outlined:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(36, 41, 46, 0.3);
+          box-shadow: 0px 5px 20px 0px rgba(36, 41, 46, 0.3);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.github.outlined.hoverd {
+  -webkit-transition: 0.4s background-color, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+  transition: 0.4s background-color, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+  transition: 0.4s background-color, 0.5s box-shadow, 0.3s transform;
+  transition: 0.4s background-color, 0.5s box-shadow, 0.3s transform, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+}
+
+button.btnr.github.outlined.hoverd:hover {
+  background-color: #24292e !important;
+  color: #fff !important;
+}
+
+button.btnr.github.outlined.hoverd:focus {
+  background-color: #24292e !important;
+  color: #fff !important;
+}
+
+button.btnr.github.outlined.hoverd:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(36, 41, 46, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(36, 41, 46, 0.4);
+}
+
+button.btnr.github.outlined.hoverd:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(36, 41, 46, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(36, 41, 46, 0.4);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.whatsapp {
+  color: #fff;
+  background-color: #25d366;
+}
+
+button.btnr.whatsapp:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(37, 211, 102, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(37, 211, 102, 0.4);
+}
+
+button.btnr.whatsapp:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(37, 211, 102, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(37, 211, 102, 0.4);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.whatsapp.outlined {
+  background-color: transparent;
+  border: 2px solid #25d366;
+  color: #25d366;
+  font-weight: bold;
+}
+
+button.btnr.whatsapp.outlined:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(37, 211, 102, 0.3);
+          box-shadow: 0px 5px 20px 0px rgba(37, 211, 102, 0.3);
+}
+
+button.btnr.whatsapp.outlined:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(37, 211, 102, 0.3);
+          box-shadow: 0px 5px 20px 0px rgba(37, 211, 102, 0.3);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+button.btnr.whatsapp.outlined.hoverd {
+  -webkit-transition: 0.4s background-color, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+  transition: 0.4s background-color, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+  transition: 0.4s background-color, 0.5s box-shadow, 0.3s transform;
+  transition: 0.4s background-color, 0.5s box-shadow, 0.3s transform, 0.5s -webkit-box-shadow, 0.3s -webkit-transform;
+}
+
+button.btnr.whatsapp.outlined.hoverd:hover {
+  background-color: #25d366 !important;
+  color: #fff !important;
+}
+
+button.btnr.whatsapp.outlined.hoverd:focus {
+  background-color: #25d366 !important;
+  color: #fff !important;
+}
+
+button.btnr.whatsapp.outlined.hoverd:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(37, 211, 102, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(37, 211, 102, 0.4);
+}
+
+button.btnr.whatsapp.outlined.hoverd:active {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(37, 211, 102, 0.4);
+          box-shadow: 0px 5px 20px 0px rgba(37, 211, 102, 0.4);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
 button.btni {
   position: relative;
   width: 50px;
@@ -3646,6 +4011,31 @@ button.btni.grey-5 {
 
 button.btni.grey-4 {
   background-color: #e3e7ed;
+  color: #fff;
+}
+
+button.btni.facebook {
+  background-color: #3b5998;
+  color: #fff;
+}
+
+button.btni.twitter {
+  background-color: #1da1f2;
+  color: #fff;
+}
+
+button.btni.youtube {
+  background-color: #ff0000;
+  color: #fff;
+}
+
+button.btni.github {
+  background-color: #24292e;
+  color: #fff;
+}
+
+button.btni.whatsapp {
+  background-color: #25d366;
   color: #fff;
 }
 
@@ -4661,6 +5051,46 @@ button.btni.grey-4 {
 
 .card-profile.tp2 .card-profile-container .card-profile-image .bg-tr.grey-4 .bg-tr-txt {
   background-color: #e3e7ed;
+}
+
+.card-profile.tp2 .card-profile-container .card-profile-image .bg-tr.facebook {
+  background-color: rgba(59, 89, 152, 0.6);
+}
+
+.card-profile.tp2 .card-profile-container .card-profile-image .bg-tr.facebook .bg-tr-txt {
+  background-color: #3b5998;
+}
+
+.card-profile.tp2 .card-profile-container .card-profile-image .bg-tr.twitter {
+  background-color: rgba(29, 161, 242, 0.6);
+}
+
+.card-profile.tp2 .card-profile-container .card-profile-image .bg-tr.twitter .bg-tr-txt {
+  background-color: #1da1f2;
+}
+
+.card-profile.tp2 .card-profile-container .card-profile-image .bg-tr.youtube {
+  background-color: rgba(255, 0, 0, 0.6);
+}
+
+.card-profile.tp2 .card-profile-container .card-profile-image .bg-tr.youtube .bg-tr-txt {
+  background-color: red;
+}
+
+.card-profile.tp2 .card-profile-container .card-profile-image .bg-tr.github {
+  background-color: rgba(36, 41, 46, 0.6);
+}
+
+.card-profile.tp2 .card-profile-container .card-profile-image .bg-tr.github .bg-tr-txt {
+  background-color: #24292e;
+}
+
+.card-profile.tp2 .card-profile-container .card-profile-image .bg-tr.whatsapp {
+  background-color: rgba(37, 211, 102, 0.6);
+}
+
+.card-profile.tp2 .card-profile-container .card-profile-image .bg-tr.whatsapp .bg-tr-txt {
+  background-color: #25d366;
 }
 
 .card-profile.tp2 .card-profile-container .card-profile-image .bg-tr .bg-tr-txt {

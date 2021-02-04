@@ -295,6 +295,46 @@
   background-color: #e3e7ed !important;
 }
 
+.facebook {
+  color: #3b5998;
+}
+
+.facebook-bg {
+  background-color: #3b5998 !important;
+}
+
+.twitter {
+  color: #1da1f2;
+}
+
+.twitter-bg {
+  background-color: #1da1f2 !important;
+}
+
+.youtube {
+  color: #ff0000;
+}
+
+.youtube-bg {
+  background-color: #ff0000 !important;
+}
+
+.github {
+  color: #24292e;
+}
+
+.github-bg {
+  background-color: #24292e !important;
+}
+
+.whatsapp {
+  color: #25d366;
+}
+
+.whatsapp-bg {
+  background-color: #25d366 !important;
+}
+
 i.icon-facebook {
   content: url("../../icons/icons-btns/social-media/facebook.svg");
   width: 1rem;

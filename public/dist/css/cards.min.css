@@ -526,6 +526,46 @@
   background-color: #e3e7ed;
 }
 
+.card-profile.tp2 .card-profile-container .card-profile-image .bg-tr.facebook {
+  background-color: rgba(59, 89, 152, 0.6);
+}
+
+.card-profile.tp2 .card-profile-container .card-profile-image .bg-tr.facebook .bg-tr-txt {
+  background-color: #3b5998;
+}
+
+.card-profile.tp2 .card-profile-container .card-profile-image .bg-tr.twitter {
+  background-color: rgba(29, 161, 242, 0.6);
+}
+
+.card-profile.tp2 .card-profile-container .card-profile-image .bg-tr.twitter .bg-tr-txt {
+  background-color: #1da1f2;
+}
+
+.card-profile.tp2 .card-profile-container .card-profile-image .bg-tr.youtube {
+  background-color: rgba(255, 0, 0, 0.6);
+}
+
+.card-profile.tp2 .card-profile-container .card-profile-image .bg-tr.youtube .bg-tr-txt {
+  background-color: red;
+}
+
+.card-profile.tp2 .card-profile-container .card-profile-image .bg-tr.github {
+  background-color: rgba(36, 41, 46, 0.6);
+}
+
+.card-profile.tp2 .card-profile-container .card-profile-image .bg-tr.github .bg-tr-txt {
+  background-color: #24292e;
+}
+
+.card-profile.tp2 .card-profile-container .card-profile-image .bg-tr.whatsapp {
+  background-color: rgba(37, 211, 102, 0.6);
+}
+
+.card-profile.tp2 .card-profile-container .card-profile-image .bg-tr.whatsapp .bg-tr-txt {
+  background-color: #25d366;
+}
+
 .card-profile.tp2 .card-profile-container .card-profile-image .bg-tr .bg-tr-txt {
   position: absolute;
   height: 5rem;
