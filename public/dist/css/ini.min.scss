@@ -111,13 +111,16 @@ i {
       brightness(84%) contrast(84%);
   }
   &.marineblue {
-    filter: invert(17%) sepia(57%) saturate(5562%) hue-rotate(218deg) brightness(97%) contrast(95%);
+    filter: invert(17%) sepia(57%) saturate(5562%) hue-rotate(218deg)
+      brightness(97%) contrast(95%);
   }
   &.roguePinky {
-    filter: invert(81%) sepia(49%) saturate(592%) hue-rotate(290deg) brightness(96%) contrast(103%);
+    filter: invert(81%) sepia(49%) saturate(592%) hue-rotate(290deg)
+      brightness(96%) contrast(103%);
   }
   &.creamyPeach {
-    filter: invert(67%) sepia(47%) saturate(359%) hue-rotate(332deg) brightness(96%) contrast(98%);
+    filter: invert(67%) sepia(47%) saturate(359%) hue-rotate(332deg)
+      brightness(96%) contrast(98%);
   }
 }
 .bold {
@@ -127,11 +130,81 @@ i {
   font-weight: 600 !important;
 }
 .center-align {
-  text-align: center;
+  text-align: center !important;
 }
 .left-align {
-  text-align: left;
+  text-align: left !important;
 }
 .right-align {
-  text-align: right;
+  text-align: right !important;
+}
+
+@for $var from 1 to 10 {
+  .pd-#{$var} {
+    padding: $var * 1rem;
+  }
+  .pd-l-#{$var} {
+    padding-left: $var * 1rem;
+  }
+  .pd-r-#{$var} {
+    padding-right: $var * 1rem;
+  }
+  .pd-b-#{$var} {
+    padding-bottom: $var * 1rem;
+  }
+  .pd-t-#{$var} {
+    padding-top: $var * 1rem;
+  }
+  .mr-#{$var} {
+    margin: $var * 1rem;
+  }
+  .mr-l-#{$var} {
+    margin-left: $var * 1rem;
+  }
+  .mr-r-#{$var} {
+    margin-right: $var * 1rem;
+  }
+  .mr-b-#{$var} {
+    margin-bottom: $var * 1rem;
+  }
+  .mr-t-#{$var} {
+    margin-top: $var * 1rem;
+  }
+}
+@for $var from 1 to 5 {
+  .br-#{$var} {
+    border-width: $var * 1px;
+    border-color: inherit;
+    border-style: solid;
+  }
+  .br-l-#{$var} {
+    border-left-width: $var * 1px;
+    border-left-color: inherit;
+    border-left-style: solid;
+  }
+  .br-r-#{$var} {
+    border-right-width: $var * 1px;
+    border-right-color: inherit;
+    border-right-style: solid;
+  }
+  .br-t-#{$var} {
+    border-top-width: $var * 1px;
+    border-top-color: inherit;
+    border-top-style: solid;
+  }
+
+  .br-b-#{$var} {
+    border-bottom-width: $var * 1px;
+    border-bottom-color: inherit;
+    border-bottom-style: solid;
+  }
+}
+.br-rad-50 {
+  border-radius: 50%;
+}
+.br-rad {
+  border-radius: 5px;
+}
+.br-rad-dm {
+  border-radius: 30px;
 }
