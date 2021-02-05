@@ -45,7 +45,7 @@
   font-size: 0.9rem !important;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 18rem) {
   .card-df {
     width: 100%;
   }
