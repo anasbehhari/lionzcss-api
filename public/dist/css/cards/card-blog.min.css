@@ -6,14 +6,14 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-shadow: inset 0 0 1px 0 rgba(0, 0, 0, 0.7);
-  box-shadow: inset 0 0 1px 0 rgba(0, 0, 0, 0.7);
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-shadow: inset 0px 0px 1px 0px rgba(0, 0, 0, 0.7);
+          box-shadow: inset 0px 0px 1px 0px rgba(0, 0, 0, 0.7);
   overflow: hidden;
 }
 
@@ -27,7 +27,7 @@
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
 }
 
 .card-blog .card-blog-image .card-blog-share-icon {
@@ -42,29 +42,29 @@
   top: 100%;
   left: 100%;
   -webkit-transform: translate(-135%, -50%);
-  transform: translate(-135%, -50%);
+          transform: translate(-135%, -50%);
 }
 
 .card-blog .card-blog-image .card-blog-share-icon button {
   -webkit-box-shadow: 0 0 14px -4px rgba(0, 0, 0, 0.3);
-  box-shadow: 0 0 14px -4px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 0 14px -4px rgba(0, 0, 0, 0.3);
 }
 
 .card-blog .card-blog-content {
   background-color: #fff;
-  -webkit-box-shadow: inset 0 0 1px 0 rgba(0, 0, 0, 0.7);
-  box-shadow: inset 0 0 1px 0 rgba(0, 0, 0, 0.7);
+  -webkit-box-shadow: inset 0px 0px 1px 0px rgba(0, 0, 0, 0.7);
+          box-shadow: inset 0px 0px 1px 0px rgba(0, 0, 0, 0.7);
   padding-top: 1rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .card-blog .card-blog-content .card-blog-date {
@@ -72,8 +72,8 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin: 0;
   font-family: "Open Sans";
   width: 90%;
@@ -89,10 +89,10 @@
   height: fit-content;
   border: none;
   -webkit-box-shadow: none;
-  box-shadow: none;
+          box-shadow: none;
   text-decoration: none;
-  font-weight: 700;
-  font-size: .9rem;
+  font-weight: bold;
+  font-size: 0.9rem;
 }
 
 .card-blog .card-blog-content .card-blog-date a:hover {
@@ -100,9 +100,9 @@
 }
 
 .card-blog .card-blog-content .card-blog-date h5 {
-  margin: .1rem 0 0 0;
+  margin: 0.1rem 0 0 0;
   color: #b0b0b0;
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 .card-blog .card-blog-content .card-blog-title {
@@ -122,8 +122,8 @@
 
 .card-blog .card-blog-content .card-blog-desc {
   width: 90%;
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
-  font-size: .9rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 0.9rem;
   margin-bottom: 0;
 }
 
@@ -133,19 +133,19 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  margin-top: .7rem;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 0.7rem;
   margin-bottom: 1rem;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .card-blog .card-blog-content .card-blog-tags a {
-  margin: 0 .4rem 0 0;
+  margin: 0 0.4rem 0 0;
   text-decoration: none;
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
-  font-size: .85rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 0.85rem;
   font-weight: 600;
 }
 
