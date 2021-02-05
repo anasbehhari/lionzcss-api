@@ -1,0 +1,457 @@
+.card-profile.tp2 {
+  position: relative;
+  background-color: #fff;
+  -webkit-box-shadow: inset 0px 0px 1px 0px rgba(0, 0, 0, 0.7);
+          box-shadow: inset 0px 0px 1px 0px rgba(0, 0, 0, 0.7);
+  border-radius: 0;
+}
+
+.card-profile.tp2 .card-profile-container {
+  position: relative;
+  width: 16rem !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card-profile.tp2 .card-profile-container .snp-brd {
+  position: relative;
+  width: 5rem;
+  height: 0.8rem;
+  background-color: #e8e8e8;
+  border-radius: 30px;
+  margin-top: 1.3rem;
+}
+
+.card-profile.tp2 .card-profile-container .card-profile-image {
+  position: relative;
+  width: 100%;
+  height: 18rem;
+  margin-top: 1rem;
+}
+
+.card-profile.tp2 .card-profile-container .card-profile-image img {
+  height: 13rem;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.card-profile.tp2 .card-profile-container .card-profile-image .bg-tr {
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 30%;
+  top: 0;
+}
+
+.card-profile.tp2 .card-profile-container .card-profile-image .bg-tr.danger {
+  background-color: rgba(231, 76, 60, 0.6);
+}
+
+.card-profile.tp2 .card-profile-container .card-profile-image .bg-tr.danger .bg-tr-txt {
+  background-color: #e74c3c;
+}
+
+.card-profile.tp2 .card-profile-container .card-profile-image .bg-tr.success {
+  background-color: rgba(46, 204, 113, 0.6);
+}
+
+.card-profile.tp2 .card-profile-container .card-profile-image .bg-tr.success .bg-tr-txt {
+  background-color: #2ecc71;
+}
+
+.card-profile.tp2 .card-profile-container .card-profile-image .bg-tr.warning {
+  background-color: rgba(241, 196, 15, 0.6);
+}
+
+.card-profile.tp2 .card-profile-container .card-profile-image .bg-tr.warning .bg-tr-txt {
+  background-color: #f1c40f;
+}
+
+.card-profile.tp2 .card-profile-container .card-profile-image .bg-tr.primary {
+  background-color: rgba(48, 51, 107, 0.6);
+}
+
+.card-profile.tp2 .card-profile-container .card-profile-image .bg-tr.primary .bg-tr-txt {
+  background-color: #30336b;
+}
+
+.card-profile.tp2 .card-profile-container .card-profile-image .bg-tr.secondry {
+  background-color: rgba(168, 172, 177, 0.6);
+}
+
+.card-profile.tp2 .card-profile-container .card-profile-image .bg-tr.secondry .bg-tr-txt {
+  background-color: #a8acb1;
+}
+
+.card-profile.tp2 .card-profile-container .card-profile-image .bg-tr.details {
+  background-color: rgba(64, 158, 251, 0.6);
+}
+
+.card-profile.tp2 .card-profile-container .card-profile-image .bg-tr.details .bg-tr-txt {
+  background-color: #409efb;
+}
+
+.card-profile.tp2 .card-profile-container .card-profile-image .bg-tr.roguePinky {
+  background-color: rgba(248, 165, 194, 0.6);
+}
+
+.card-profile.tp2 .card-profile-container .card-profile-image .bg-tr.roguePinky .bg-tr-txt {
+  background-color: #f8a5c2;
+}
+
+.card-profile.tp2 .card-profile-container .card-profile-image .bg-tr.squzaky {
+  background-color: rgba(99, 205, 218, 0.6);
+}
+
+.card-profile.tp2 .card-profile-container .card-profile-image .bg-tr.squzaky .bg-tr-txt {
+  background-color: #63cdda;
+}
+
+.card-profile.tp2 .card-profile-container .card-profile-image .bg-tr.creamyPeach {
+  background-color: rgba(243, 166, 131, 0.6);
+}
+
+.card-profile.tp2 .card-profile-container .card-profile-image .bg-tr.creamyPeach .bg-tr-txt {
+  background-color: #f3a683;
+}
+
+.card-profile.tp2 .card-profile-container .card-profile-image .bg-tr.softBlue {
+  background-color: rgba(119, 139, 235, 0.6);
+}
+
+.card-profile.tp2 .card-profile-container .card-profile-image .bg-tr.softBlue .bg-tr-txt {
+  background-color: #778beb;
+}
+
+.card-profile.tp2 .card-profile-container .card-profile-image .bg-tr.dragon {
+  background-color: rgba(255, 159, 67, 0.6);
+}
+
+.card-profile.tp2 .card-profile-container .card-profile-image .bg-tr.dragon .bg-tr-txt {
+  background-color: #ff9f43;
+}
+
+.card-profile.tp2 .card-profile-container .card-profile-image .bg-tr.marineblue {
+  background-color: rgba(6, 82, 221, 0.6);
+}
+
+.card-profile.tp2 .card-profile-container .card-profile-image .bg-tr.marineblue .bg-tr-txt {
+  background-color: #0652dd;
+}
+
+.card-profile.tp2 .card-profile-container .card-profile-image .bg-tr.greenDes {
+  background-color: rgba(35, 206, 153, 0.6);
+}
+
+.card-profile.tp2 .card-profile-container .card-profile-image .bg-tr.greenDes .bg-tr-txt {
+  background-color: #23ce99;
+}
+
+.card-profile.tp2 .card-profile-container .card-profile-image .bg-tr.lightred {
+  background-color: rgba(255, 79, 107, 0.6);
+}
+
+.card-profile.tp2 .card-profile-container .card-profile-image .bg-tr.lightred .bg-tr-txt {
+  background-color: #ff4f6b;
+}
+
+.card-profile.tp2 .card-profile-container .card-profile-image .bg-tr.android {
+  background-color: rgba(163, 203, 56, 0.6);
+}
+
+.card-profile.tp2 .card-profile-container .card-profile-image .bg-tr.android .bg-tr-txt {
+  background-color: #a3cb38;
+}
+
+.card-profile.tp2 .card-profile-container .card-profile-image .bg-tr.pixelatedgrass {
+  background-color: rgba(0, 148, 50, 0.6);
+}
+
+.card-profile.tp2 .card-profile-container .card-profile-image .bg-tr.pixelatedgrass .bg-tr-txt {
+  background-color: #009432;
+}
+
+.card-profile.tp2 .card-profile-container .card-profile-image .bg-tr.eyeofnewt {
+  background-color: rgba(179, 57, 57, 0.6);
+}
+
+.card-profile.tp2 .card-profile-container .card-profile-image .bg-tr.eyeofnewt .bg-tr-txt {
+  background-color: #b33939;
+}
+
+.card-profile.tp2 .card-profile-container .card-profile-image .bg-tr.summersky {
+  background-color: rgba(52, 172, 224, 0.6);
+}
+
+.card-profile.tp2 .card-profile-container .card-profile-image .bg-tr.summersky .bg-tr-txt {
+  background-color: #34ace0;
+}
+
+.card-profile.tp2 .card-profile-container .card-profile-image .bg-tr.spipeanut {
+  background-color: rgba(255, 218, 121, 0.6);
+}
+
+.card-profile.tp2 .card-profile-container .card-profile-image .bg-tr.spipeanut .bg-tr-txt {
+  background-color: #ffda79;
+}
+
+.card-profile.tp2 .card-profile-container .card-profile-image .bg-tr.chileanfire {
+  background-color: rgba(205, 97, 51, 0.6);
+}
+
+.card-profile.tp2 .card-profile-container .card-profile-image .bg-tr.chileanfire .bg-tr-txt {
+  background-color: #cd6133;
+}
+
+.card-profile.tp2 .card-profile-container .card-profile-image .bg-tr.baywhraf {
+  background-color: rgba(116, 125, 140, 0.6);
+}
+
+.card-profile.tp2 .card-profile-container .card-profile-image .bg-tr.baywhraf .bg-tr-txt {
+  background-color: #747d8c;
+}
+
+.card-profile.tp2 .card-profile-container .card-profile-image .bg-tr.cpurple {
+  background-color: rgba(104, 104, 238, 0.6);
+}
+
+.card-profile.tp2 .card-profile-container .card-profile-image .bg-tr.cpurple .bg-tr-txt {
+  background-color: #6868ee;
+}
+
+.card-profile.tp2 .card-profile-container .card-profile-image .bg-tr.light-green {
+  background-color: rgba(115, 255, 214, 0.6);
+}
+
+.card-profile.tp2 .card-profile-container .card-profile-image .bg-tr.light-green .bg-tr-txt {
+  background-color: #73ffd6;
+}
+
+.card-profile.tp2 .card-profile-container .card-profile-image .bg-tr.light-blue {
+  background-color: rgba(159, 193, 255, 0.6);
+}
+
+.card-profile.tp2 .card-profile-container .card-profile-image .bg-tr.light-blue .bg-tr-txt {
+  background-color: #9fc1ff;
+}
+
+.card-profile.tp2 .card-profile-container .card-profile-image .bg-tr.light-blue-solid {
+  background-color: rgba(173, 192, 234, 0.6);
+}
+
+.card-profile.tp2 .card-profile-container .card-profile-image .bg-tr.light-blue-solid .bg-tr-txt {
+  background-color: #adc0ea;
+}
+
+.card-profile.tp2 .card-profile-container .card-profile-image .bg-tr.light-alice {
+  background-color: rgba(154, 218, 255, 0.6);
+}
+
+.card-profile.tp2 .card-profile-container .card-profile-image .bg-tr.light-alice .bg-tr-txt {
+  background-color: #9adaff;
+}
+
+.card-profile.tp2 .card-profile-container .card-profile-image .bg-tr.light-bgray {
+  background-color: rgba(164, 209, 232, 0.6);
+}
+
+.card-profile.tp2 .card-profile-container .card-profile-image .bg-tr.light-bgray .bg-tr-txt {
+  background-color: #a4d1e8;
+}
+
+.card-profile.tp2 .card-profile-container .card-profile-image .bg-tr.light-pink {
+  background-color: rgba(254, 198, 227, 0.6);
+}
+
+.card-profile.tp2 .card-profile-container .card-profile-image .bg-tr.light-pink .bg-tr-txt {
+  background-color: #fec6e3;
+}
+
+.card-profile.tp2 .card-profile-container .card-profile-image .bg-tr.light-orange {
+  background-color: rgba(254, 215, 174, 0.6);
+}
+
+.card-profile.tp2 .card-profile-container .card-profile-image .bg-tr.light-orange .bg-tr-txt {
+  background-color: #fed7ae;
+}
+
+.card-profile.tp2 .card-profile-container .card-profile-image .bg-tr.mv-prp {
+  background-color: rgba(158, 77, 205, 0.6);
+}
+
+.card-profile.tp2 .card-profile-container .card-profile-image .bg-tr.mv-prp .bg-tr-txt {
+  background-color: #9e4dcd;
+}
+
+.card-profile.tp2 .card-profile-container .card-profile-image .bg-tr.light-red {
+  background-color: rgba(255, 151, 165, 0.6);
+}
+
+.card-profile.tp2 .card-profile-container .card-profile-image .bg-tr.light-red .bg-tr-txt {
+  background-color: #ff97a5;
+}
+
+.card-profile.tp2 .card-profile-container .card-profile-image .bg-tr.white {
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.card-profile.tp2 .card-profile-container .card-profile-image .bg-tr.white .bg-tr-txt {
+  background-color: white;
+}
+
+.card-profile.tp2 .card-profile-container .card-profile-image .bg-tr.dark {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.card-profile.tp2 .card-profile-container .card-profile-image .bg-tr.dark .bg-tr-txt {
+  background-color: black;
+}
+
+.card-profile.tp2 .card-profile-container .card-profile-image .bg-tr.darkGr {
+  background-color: rgba(51, 51, 51, 0.6);
+}
+
+.card-profile.tp2 .card-profile-container .card-profile-image .bg-tr.darkGr .bg-tr-txt {
+  background-color: #333333;
+}
+
+.card-profile.tp2 .card-profile-container .card-profile-image .bg-tr.fba {
+  background-color: rgba(242, 242, 242, 0.6);
+}
+
+.card-profile.tp2 .card-profile-container .card-profile-image .bg-tr.fba .bg-tr-txt {
+  background-color: #f2f2f2;
+}
+
+.card-profile.tp2 .card-profile-container .card-profile-image .bg-tr.grey-5 {
+  background-color: rgba(107, 114, 128, 0.6);
+}
+
+.card-profile.tp2 .card-profile-container .card-profile-image .bg-tr.grey-5 .bg-tr-txt {
+  background-color: #6b7280;
+}
+
+.card-profile.tp2 .card-profile-container .card-profile-image .bg-tr.grey-4 {
+  background-color: rgba(227, 231, 237, 0.6);
+}
+
+.card-profile.tp2 .card-profile-container .card-profile-image .bg-tr.grey-4 .bg-tr-txt {
+  background-color: #e3e7ed;
+}
+
+.card-profile.tp2 .card-profile-container .card-profile-image .bg-tr.facebook {
+  background-color: rgba(59, 89, 152, 0.6);
+}
+
+.card-profile.tp2 .card-profile-container .card-profile-image .bg-tr.facebook .bg-tr-txt {
+  background-color: #3b5998;
+}
+
+.card-profile.tp2 .card-profile-container .card-profile-image .bg-tr.twitter {
+  background-color: rgba(29, 161, 242, 0.6);
+}
+
+.card-profile.tp2 .card-profile-container .card-profile-image .bg-tr.twitter .bg-tr-txt {
+  background-color: #1da1f2;
+}
+
+.card-profile.tp2 .card-profile-container .card-profile-image .bg-tr.youtube {
+  background-color: rgba(255, 0, 0, 0.6);
+}
+
+.card-profile.tp2 .card-profile-container .card-profile-image .bg-tr.youtube .bg-tr-txt {
+  background-color: red;
+}
+
+.card-profile.tp2 .card-profile-container .card-profile-image .bg-tr.github {
+  background-color: rgba(36, 41, 46, 0.6);
+}
+
+.card-profile.tp2 .card-profile-container .card-profile-image .bg-tr.github .bg-tr-txt {
+  background-color: #24292e;
+}
+
+.card-profile.tp2 .card-profile-container .card-profile-image .bg-tr.whatsapp {
+  background-color: rgba(37, 211, 102, 0.6);
+}
+
+.card-profile.tp2 .card-profile-container .card-profile-image .bg-tr.whatsapp .bg-tr-txt {
+  background-color: #25d366;
+}
+
+.card-profile.tp2 .card-profile-container .card-profile-image .bg-tr .bg-tr-txt {
+  position: absolute;
+  height: 5rem;
+  width: 100%;
+  bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.card-profile.tp2 .card-profile-container .card-profile-image .bg-tr .bg-tr-txt a i {
+  width: 1rem;
+  -webkit-filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(34deg) brightness(108%) contrast(100%);
+          filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(34deg) brightness(108%) contrast(100%);
+}
+
+.card-profile.tp2 .card-profile-container .card-profile-name {
+  font-family: "Open Sans";
+  width: 100%;
+  font-weight: bold;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+}
+
+.card-profile.tp2 .card-profile-container .card-profile-info-s {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  margin-bottom: 1rem;
+  font-family: "Open Sans";
+}
+
+.card-profile.tp2 .card-profile-container .card-profile-info-s .card-profile-pr {
+  margin: 0;
+  padding-left: 0.2rem;
+}
+
+.card-profile.tp2 .card-profile-container .card-profile-info-s a.see-more {
+  font-size: 0.8rem;
+  width: -webkit-fit-content !important;
+  width: -moz-fit-content !important;
+  width: fit-content !important;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+.card-profile.tp2 .card-profile-container .card-profile-info-s a.see-more:hover {
+  text-decoration: underline;
+}
+/*# sourceMappingURL=card-profile-tp2.min.css.map */

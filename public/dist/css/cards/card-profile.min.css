@@ -1,0 +1,131 @@
+.card-profile {
+  position: relative;
+  width: 18rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-radius: 4px;
+}
+
+.card-profile .bg-clr {
+  position: relative;
+  width: 100%;
+  background-color: #000;
+  height: 10rem;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.card-profile .bg-clr .con-btn {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  -webkit-box-shadow: 0 0 14px -4px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 0 14px -4px rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+  position: absolute;
+  left: 100%;
+  top: -20px;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.card-profile .bg-clr .card-profile-image {
+  position: absolute;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  top: 100%;
+}
+
+.card-profile .bg-clr .card-profile-image img {
+  width: 30%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  -webkit-box-shadow: 0 0 14px -4px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 0 14px -4px rgba(0, 0, 0, 0.3);
+}
+
+.card-profile .card-info-details {
+  background-color: #fff;
+  -webkit-box-shadow: inset 0px 0px 1px 0px rgba(0, 0, 0, 0.7);
+          box-shadow: inset 0px 0px 1px 0px rgba(0, 0, 0, 0.7);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card-profile .card-info-details .card-info {
+  margin-top: 3em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card-profile .card-info-details .card-info .name {
+  font-family: "Open Sans";
+}
+
+.card-profile .card-info-details .card-info .card-desc {
+  text-align: center;
+  font-family: "Open Sans";
+  color: #b0b0b0;
+  padding: 0 0.5em;
+}
+
+.card-profile .card-info-details .card-social-media {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 1.5rem 0 1.5rem 0;
+}
+
+.card-profile .card-info-details .card-social-media a {
+  margin: 0 0.5em;
+}
+
+.card-profile .card-info-details .card-social-media a i {
+  -webkit-filter: invert(79%) sepia(2%) saturate(0%) hue-rotate(359deg) brightness(91%) contrast(93%);
+          filter: invert(79%) sepia(2%) saturate(0%) hue-rotate(359deg) brightness(91%) contrast(93%);
+  width: 1.3rem;
+  height: 1.3rem;
+}
+/*# sourceMappingURL=card-profile.min.css.map */
