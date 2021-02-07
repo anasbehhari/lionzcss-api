@@ -12,7 +12,7 @@ button.btnc {
   font-size: 1rem;
   display: flex;
   overflow: hidden;
-  background-color: #fafafa;
+  background-color: transparent;
   outline: none;
   border-radius: 5px;
   transition: .3s transform;
@@ -73,6 +73,7 @@ button.btnc {
     z-index: 1;
   }
   &:hover {
+  background-color: #fafafa !important;
     span {
       transform: translateX(-15%);
       clip-path: polygon(0 0, 93% 0, 77% 100%, 0% 100%);

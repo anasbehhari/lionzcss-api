@@ -23,7 +23,7 @@ button.btnc {
   display: -ms-flexbox;
   display: flex;
   overflow: hidden;
-  background-color: #fafafa;
+  background-color: transparent;
   outline: none;
   border-radius: 5px;
   -webkit-transition: .3s transform;
@@ -99,6 +99,10 @@ button.btnc i {
   transition: 0.3s transform ease-in-out;
   transition: 0.3s transform ease-in-out, 0.3s -webkit-transform ease-in-out;
   z-index: 1;
+}
+
+button.btnc:hover {
+  background-color: #fafafa !important;
 }
 
 button.btnc:hover span {
