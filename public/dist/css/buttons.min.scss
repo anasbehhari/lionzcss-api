@@ -41,7 +41,7 @@ button.btnc {
         transform: none !important;
         clip-path: none !important;
       }
-      i {
+      i,svg,img {
         transform: none !important;
       }
     }
@@ -62,7 +62,7 @@ button.btnc {
     transition: 0.3s clip-path ease, 0.3s transform ease-out;
     z-index: 2;
   }
-  i {
+  i,svg,img {
     position: absolute;
     font-size: 1.5em;
     color: inherit;
@@ -78,7 +78,7 @@ button.btnc {
       transform: translateX(-15%);
       clip-path: polygon(0 0, 93% 0, 77% 100%, 0% 100%);
     }
-    i {
+    i,svg,img {
       transform: translate(-100%, -50%);
     }
   }
