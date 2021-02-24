@@ -7,6 +7,7 @@ app.use(express.static('./public'));
 app.get("/",(req,res) => {
     res.send("Hi 💕")
 })
+app.use("/fonts",express.static(__dirname + "public/dist/fonts"))
 
 app.get("/api/:folder/:file",(req,res) => {
     if (req.params.folder && req.params.file) {

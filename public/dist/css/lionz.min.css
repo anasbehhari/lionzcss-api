@@ -1,4 +1,3 @@
-@import url(/home/anbehhari/Documents/dev-rep/lionzcss-api/public/dist/css/_csm_fnt.css);
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
 @-webkit-keyframes cl50 {
   100% {
@@ -3044,142 +3043,6 @@ button.btni:focus::before {
           animation: cl50 0.5s;
 }
 
-button.btni.delete i {
-  content: url("../../icons/icons-btns/delete.svg") !important;
-}
-
-button.btni.check i {
-  content: url("../../icons/icons-btns/check.svg") !important;
-}
-
-button.btni.save i {
-  content: url("../../icons/icons-btns/save.svg") !important;
-}
-
-button.btni.talk i {
-  content: url("../../icons/icons-btns/talk.svg") !important;
-}
-
-button.btni.plus i {
-  content: url("../../icons/icons-btns/plus.svg") !important;
-}
-
-button.btni.bookmark i {
-  content: url("../../icons/icons-btns/bookmark.svg") !important;
-  width: 36% !important;
-  height: 36% !important;
-}
-
-button.btni.reload i {
-  content: url("../../icons/icons-btns/reload.svg") !important;
-}
-
-button.btni.edit i {
-  content: url("../../icons/icons-btns/edit.svg") !important;
-}
-
-button.btni.copy i {
-  content: url("../../icons/icons-btns/copy.svg") !important;
-}
-
-button.btni.share i {
-  content: url("../../icons/icons-btns/share.svg") !important;
-}
-
-button.btni.attch i {
-  content: url("../../icons/icons-btns/attch.svg") !important;
-}
-
-button.btni.send i {
-  content: url("../../icons/icons-btns/send.svg") !important;
-}
-
-button.btni.cart i {
-  content: url("../../icons/icons-btns/cart.svg") !important;
-}
-
-button.btni.back i {
-  content: url("../../icons/icons-btns/back.svg") !important;
-}
-
-button.btni.bell i {
-  content: url("../../icons/icons-btns/bell.svg") !important;
-}
-
-button.btni.exclamation i {
-  content: url("../../icons/icons-btns/exclamation.svg") !important;
-}
-
-button.btni.facebook {
-  background-color: #3b5998;
-}
-
-button.btni.facebook i {
-  content: url("../../icons/icons-btns/social-media/facebook.svg");
-  -webkit-filter: invert(99%) sepia(26%) saturate(2%) hue-rotate(240deg) brightness(112%) contrast(101%) !important;
-          filter: invert(99%) sepia(26%) saturate(2%) hue-rotate(240deg) brightness(112%) contrast(101%) !important;
-}
-
-button.btni.twitter {
-  background-color: #1da1f2;
-}
-
-button.btni.twitter i {
-  width: 50% !important;
-  height: 50% !important;
-  content: url("../../icons/icons-btns/social-media/twitter.svg");
-  -webkit-filter: invert(99%) sepia(26%) saturate(2%) hue-rotate(240deg) brightness(112%) contrast(101%) !important;
-          filter: invert(99%) sepia(26%) saturate(2%) hue-rotate(240deg) brightness(112%) contrast(101%) !important;
-}
-
-button.btni.youtube {
-  background-color: #ff0000;
-}
-
-button.btni.youtube i {
-  width: 50% !important;
-  height: 50% !important;
-  content: url("../../icons/icons-btns/social-media/youtube.svg");
-  -webkit-filter: invert(99%) sepia(26%) saturate(2%) hue-rotate(240deg) brightness(112%) contrast(101%) !important;
-          filter: invert(99%) sepia(26%) saturate(2%) hue-rotate(240deg) brightness(112%) contrast(101%) !important;
-}
-
-button.btni.github {
-  background-color: #24292e;
-}
-
-button.btni.github i {
-  width: 50% !important;
-  height: 50% !important;
-  content: url("../../icons/icons-btns/social-media/github.svg");
-  -webkit-filter: invert(99%) sepia(26%) saturate(2%) hue-rotate(240deg) brightness(112%) contrast(101%) !important;
-          filter: invert(99%) sepia(26%) saturate(2%) hue-rotate(240deg) brightness(112%) contrast(101%) !important;
-}
-
-button.btni.whatsapp {
-  background-color: #25d366;
-}
-
-button.btni.whatsapp i {
-  width: 50% !important;
-  height: 50% !important;
-  content: url("../../icons/icons-btns/social-media/whatsapp.svg");
-  -webkit-filter: invert(99%) sepia(26%) saturate(2%) hue-rotate(240deg) brightness(112%) contrast(101%) !important;
-          filter: invert(99%) sepia(26%) saturate(2%) hue-rotate(240deg) brightness(112%) contrast(101%) !important;
-}
-
-button.btni.instagram {
-  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
-}
-
-button.btni.instagram i {
-  width: 50% !important;
-  height: 50% !important;
-  content: url("../../icons/icons-btns/social-media/instagram.svg");
-  -webkit-filter: invert(99%) sepia(26%) saturate(2%) hue-rotate(240deg) brightness(112%) contrast(101%) !important;
-          filter: invert(99%) sepia(26%) saturate(2%) hue-rotate(240deg) brightness(112%) contrast(101%) !important;
-}
-
 button.btni.danger {
   background-color: #e74c3c;
   color: #fff;
@@ -3525,339 +3388,339 @@ button.btni.whatsapp {
   }
 }
 
-.danger {
+*.danger {
   color: #e74c3c;
 }
 
-.danger-bg {
+*.danger-bg {
   background-color: #e74c3c !important;
 }
 
-.success {
+*.success {
   color: #2ecc71;
 }
 
-.success-bg {
+*.success-bg {
   background-color: #2ecc71 !important;
 }
 
-.warning {
+*.warning {
   color: #f1c40f;
 }
 
-.warning-bg {
+*.warning-bg {
   background-color: #f1c40f !important;
 }
 
-.primary {
+*.primary {
   color: #30336b;
 }
 
-.primary-bg {
+*.primary-bg {
   background-color: #30336b !important;
 }
 
-.secondry {
+*.secondry {
   color: #a8acb1;
 }
 
-.secondry-bg {
+*.secondry-bg {
   background-color: #a8acb1 !important;
 }
 
-.details {
+*.details {
   color: #409efb;
 }
 
-.details-bg {
+*.details-bg {
   background-color: #409efb !important;
 }
 
-.roguePinky {
+*.roguePinky {
   color: #f8a5c2;
 }
 
-.roguePinky-bg {
+*.roguePinky-bg {
   background-color: #f8a5c2 !important;
 }
 
-.squzaky {
+*.squzaky {
   color: #63cdda;
 }
 
-.squzaky-bg {
+*.squzaky-bg {
   background-color: #63cdda !important;
 }
 
-.creamyPeach {
+*.creamyPeach {
   color: #f3a683;
 }
 
-.creamyPeach-bg {
+*.creamyPeach-bg {
   background-color: #f3a683 !important;
 }
 
-.softBlue {
+*.softBlue {
   color: #778beb;
 }
 
-.softBlue-bg {
+*.softBlue-bg {
   background-color: #778beb !important;
 }
 
-.dragon {
+*.dragon {
   color: #ff9f43;
 }
 
-.dragon-bg {
+*.dragon-bg {
   background-color: #ff9f43 !important;
 }
 
-.marineblue {
+*.marineblue {
   color: #0652dd;
 }
 
-.marineblue-bg {
+*.marineblue-bg {
   background-color: #0652dd !important;
 }
 
-.greenDes {
+*.greenDes {
   color: #23ce99;
 }
 
-.greenDes-bg {
+*.greenDes-bg {
   background-color: #23ce99 !important;
 }
 
-.lightred {
+*.lightred {
   color: #ff4f6b;
 }
 
-.lightred-bg {
+*.lightred-bg {
   background-color: #ff4f6b !important;
 }
 
-.android {
+*.android {
   color: #a3cb38;
 }
 
-.android-bg {
+*.android-bg {
   background-color: #a3cb38 !important;
 }
 
-.pixelatedgrass {
+*.pixelatedgrass {
   color: #009432;
 }
 
-.pixelatedgrass-bg {
+*.pixelatedgrass-bg {
   background-color: #009432 !important;
 }
 
-.eyeofnewt {
+*.eyeofnewt {
   color: #b33939;
 }
 
-.eyeofnewt-bg {
+*.eyeofnewt-bg {
   background-color: #b33939 !important;
 }
 
-.summersky {
+*.summersky {
   color: #34ace0;
 }
 
-.summersky-bg {
+*.summersky-bg {
   background-color: #34ace0 !important;
 }
 
-.spipeanut {
+*.spipeanut {
   color: #ffda79;
 }
 
-.spipeanut-bg {
+*.spipeanut-bg {
   background-color: #ffda79 !important;
 }
 
-.chileanfire {
+*.chileanfire {
   color: #cd6133;
 }
 
-.chileanfire-bg {
+*.chileanfire-bg {
   background-color: #cd6133 !important;
 }
 
-.baywhraf {
+*.baywhraf {
   color: #747d8c;
 }
 
-.baywhraf-bg {
+*.baywhraf-bg {
   background-color: #747d8c !important;
 }
 
-.cpurple {
+*.cpurple {
   color: #6868ee;
 }
 
-.cpurple-bg {
+*.cpurple-bg {
   background-color: #6868ee !important;
 }
 
-.light-green {
+*.light-green {
   color: #73ffd6;
 }
 
-.light-green-bg {
+*.light-green-bg {
   background-color: #73ffd6 !important;
 }
 
-.light-blue {
+*.light-blue {
   color: #9fc1ff;
 }
 
-.light-blue-bg {
+*.light-blue-bg {
   background-color: #9fc1ff !important;
 }
 
-.light-blue-solid {
+*.light-blue-solid {
   color: #adc0ea;
 }
 
-.light-blue-solid-bg {
+*.light-blue-solid-bg {
   background-color: #adc0ea !important;
 }
 
-.light-alice {
+*.light-alice {
   color: #9adaff;
 }
 
-.light-alice-bg {
+*.light-alice-bg {
   background-color: #9adaff !important;
 }
 
-.light-bgray {
+*.light-bgray {
   color: #a4d1e8;
 }
 
-.light-bgray-bg {
+*.light-bgray-bg {
   background-color: #a4d1e8 !important;
 }
 
-.light-pink {
+*.light-pink {
   color: #fec6e3;
 }
 
-.light-pink-bg {
+*.light-pink-bg {
   background-color: #fec6e3 !important;
 }
 
-.light-orange {
+*.light-orange {
   color: #fed7ae;
 }
 
-.light-orange-bg {
+*.light-orange-bg {
   background-color: #fed7ae !important;
 }
 
-.mv-prp {
+*.mv-prp {
   color: #9e4dcd;
 }
 
-.mv-prp-bg {
+*.mv-prp-bg {
   background-color: #9e4dcd !important;
 }
 
-.light-red {
+*.light-red {
   color: #ff97a5;
 }
 
-.light-red-bg {
+*.light-red-bg {
   background-color: #ff97a5 !important;
 }
 
-.white {
+*.white {
   color: #fff;
 }
 
-.white-bg {
+*.white-bg {
   background-color: #fff !important;
 }
 
-.dark {
+*.dark {
   color: #000;
 }
 
-.dark-bg {
+*.dark-bg {
   background-color: #000 !important;
 }
 
-.darkGr {
+*.darkGr {
   color: #333;
 }
 
-.darkGr-bg {
+*.darkGr-bg {
   background-color: #333 !important;
 }
 
-.fba {
+*.fba {
   color: #f2f2f2;
 }
 
-.fba-bg {
+*.fba-bg {
   background-color: #f2f2f2 !important;
 }
 
-.grey-5 {
+*.grey-5 {
   color: #6b7280;
 }
 
-.grey-5-bg {
+*.grey-5-bg {
   background-color: #6b7280 !important;
 }
 
-.grey-4 {
+*.grey-4 {
   color: #e3e7ed;
 }
 
-.grey-4-bg {
+*.grey-4-bg {
   background-color: #e3e7ed !important;
 }
 
-.facebook {
+*.facebook {
   color: #3b5998;
 }
 
-.facebook-bg {
+*.facebook-bg {
   background-color: #3b5998 !important;
 }
 
-.twitter {
+*.twitter {
   color: #1da1f2;
 }
 
-.twitter-bg {
+*.twitter-bg {
   background-color: #1da1f2 !important;
 }
 
-.youtube {
+*.youtube {
   color: #ff0000;
 }
 
-.youtube-bg {
+*.youtube-bg {
   background-color: #ff0000 !important;
 }
 
-.github {
+*.github {
   color: #24292e;
 }
 
-.github-bg {
+*.github-bg {
   background-color: #24292e !important;
 }
 
-.whatsapp {
+*.whatsapp {
   color: #25d366;
 }
 
-.whatsapp-bg {
+*.whatsapp-bg {
   background-color: #25d366 !important;
 }
 
@@ -4766,26 +4629,23 @@ button.btni.whatsapp {
     width: max-content !important;
   }
 }
-/*# sourceMappingURL=lionz.min.css.map */
 
 @font-face {
   font-family: "lionzcss";
-  src: url("../fonts/lionzcss.eot?vec8wn");
-  src: url("../fonts/lionzcss.eot?vec8wn#iefix") format("embedded-opentype"), url("../fonts/lionzcss.ttf?vec8wn") format("truetype"), url("../fonts/lionzcss.woff?vec8wn") format("woff"), url("../fonts/lionzcss.svg?vec8wn#lionzcss") format("svg");
+  src: url("/fonts/lionzcss.eot?vec8wn");
+  src: url("/fonts/lionzcss.eot?vec8wn#iefix") format("embedded-opentype"), url("/fonts/lionzcss.ttf?vec8wn") format("truetype"), url("/fonts/lionzcss.woff?vec8wn") format("woff"), url("/fonts/lionzcss.svg?vec8wn#lionzcss") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
 }
 
 i {
-  /* use !important to prevent issues with browser extensions that change fonts */
   font-family: "lionzcss" !important;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
   text-transform: none;
   line-height: 1;
-  /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: currentColor !important;
@@ -4938,3 +4798,4 @@ i.icon-attch:before {
 i.icon-alm:before {
   content: "\e924";
 }
+/*# sourceMappingURL=lionz.min.css.map */
