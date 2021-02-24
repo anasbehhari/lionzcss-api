@@ -34,6 +34,8 @@ $icons: "Asterisk" "../../icons/icons-btns/alm.svg",
   "success" "../../icons/icons-btns/success.svg",
   "talk" "../../icons/icons-btns/talk.svg", "up" "../../icons/icons-btns/up.svg",
   "warning" "../../icons/icons-btns/warning.svg",
+  "down_arrow" "../../icons/icons-btns/down_arrow.svg",
+
   "exclamation" "../../icons/icons-btns/exclamation.svg";
 @each $name, $clr in $theme-colors {
   .#{$name} {
