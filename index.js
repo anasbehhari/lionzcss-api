@@ -9,11 +9,10 @@ app.get("/",(req,res) => {
 })
 app.use("/fonts",express.static(__dirname + "/public/dist/fonts"))
 app.get("/api/:folder/:file",(req,res) => {
+
     if (req.params.folder && req.params.file) {
         const folder = req.params.folder;
         const file = req.params.file;
-
-
         if (folder == "css" || folder == "js" || folder == "scss") {
             const filename = path.join(__dirname,`/public/dist/${folder}/${file}.min.${folder}`)
             return res.sendFile(filename,function (err) {
@@ -41,6 +40,7 @@ app.get("/api/:folder/:subfolder/:file",(req,res) => {
     }
 })
 app.get("*",(req,res)=>{
+    res.setHeader('Access-Control-Allow-Origin', '*');
     res.send("not found").status(404)
 })
 
