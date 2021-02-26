@@ -1,7 +1,7 @@
 @font-face {
   font-family: "lionzcss";
-  src: url("/fonts/lionzcss.eot?vec8wn");
-  src: url("/fonts/lionzcss.eot?vec8wn#iefix") format("embedded-opentype"), url("/fonts/lionzcss.ttf?vec8wn") format("truetype"), url("fonts/lionzcss.woff?vec8wn") format("woff"), url("/fonts/lionzcss.svg?vec8wn#lionzcss") format("svg");
+  src: url("./fonts/lionzcss.eot?vec8wn");
+  src: url("./fonts/lionzcss.eot?vec8wn#iefix") format("embedded-opentype"), url("./fonts/lionzcss.ttf?vec8wn") format("truetype"), url("./fonts/lionzcss.woff?vec8wn") format("woff"), url("./fonts/lionzcss.svg?vec8wn#lionzcss") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
