@@ -1,9 +1,11 @@
 const express = require("express");
 const path = require("path");
 const Port = process.env.PORT || 5000;
+const cors = require("cors");
 const app = express();
 app.use(express.json());
 app.use(express.static("/public"));
+app.use(cors())
 app.get("/", (req, res) => {
     res.send("Hi 💕");
 });
@@ -28,7 +30,6 @@ app.get("/api/:folder/:file", (req, res) => {
 app.get("/api/:folder/:subfolder/:file", (req, res) => {
     if (req.params.folder && req.params.file) {
         res.setHeader("Access-Control-Allow-Origin", "*");
-
         const folder = req.params.folder;
         const subfolder = req.params.subfolder;
         const file = req.params.file;
@@ -45,10 +46,8 @@ app.get("/api/:folder/:subfolder/:file", (req, res) => {
     }
 });
 app.get("*", (req, res) => {
-    res.setHeader('Access-Control-Allow-Origin', '*');
     res.send("not found").status(404);
 });
-
 app.listen(Port, (req, res) => {
     console.log(`Server runnig on ${Port}`);
 });
