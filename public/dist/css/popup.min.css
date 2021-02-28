@@ -40,10 +40,6 @@
   background-color: #fff;
   width: 320px;
   border-radius: 5px;
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
-  font-family: "Open Sans", sans-serif;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -60,27 +56,15 @@
 }
 
 .popup.popup-tp-1:hover .close-popup {
-  top: 1rem;
+  top: 1.5rem;
 }
 
 .popup.popup-tp-1 .close-popup {
   position: absolute;
-  -webkit-transition: 0.4s ease top;
-  transition: 0.4s ease top;
+  -webkit-transition: .4s top;
+  transition: .4s top;
   top: -5rem;
-  left: 85%;
-  width: 2rem;
-  height: 2rem;
-  border-radius: 50%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  left: 90%;
   cursor: pointer;
 }
 
@@ -107,23 +91,16 @@
   margin-top: 3rem;
 }
 
-.popup.popup-tp-1 .popup-icon i {
-  width: 1.2rem;
-  height: 1.2rem;
-}
-
 .popup.popup-tp-1 h1.popup-title {
   text-align: center;
   font-size: 1.6rem;
-  font-weight: 600;
   margin-top: 1rem;
-  margin-bottom: 0;
 }
 
 .popup.popup-tp-1 p.popup-description {
   font-size: 0.75rem;
   text-align: center;
-  margin-top: 2rem;
+  margin-top: 1rem;
   width: 80%;
 }
 
@@ -143,25 +120,12 @@
   background-color: #fff;
   border-radius: 5px;
   overflow: hidden;
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
   -webkit-box-shadow: 0px 0px 5px 0px #32323538;
           box-shadow: 0px 0px 5px 0px #32323538;
 }
 
 .popup.popup-tp-2 .lf-popup-picture-sec {
-  position: relative;
   height: 400px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   width: 50%;
 }
 
@@ -173,7 +137,6 @@
 }
 
 .popup.popup-tp-2 .dt-sec-popup-area {
-  position: relative;
   width: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -185,23 +148,20 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  text-align: center;
 }
 
 .popup.popup-tp-2 .dt-sec-popup-area h1.tit-dt-popup {
-  text-align: center;
-  font-family: "Open Sans";
   font-weight: 600;
   font-size: 1.5rem;
   margin-top: 3rem;
 }
 
 .popup.popup-tp-2 .dt-sec-popup-area p.description-dt-popup {
-  text-align: center;
-  font-family: "Open Sans";
   font-weight: 300;
   font-size: 0.8rem;
   width: 80%;
-  margin: 0 0 1rem 0;
+  margin: 0 0 2rem 0;
 }
 
 .popup.popup-tp-2 .dt-sec-popup-area form.popup-nws-frm {
@@ -216,16 +176,13 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 1rem;
 }
 
 .popup.popup-tp-2 .dt-sec-popup-area form.popup-nws-frm input.popup-input-email {
-  position: relative;
   width: 70%;
   border: 1px solid #00000036;
   padding: 0.5rem;
   outline: none;
-  font-family: "Open Sans";
   font-size: 0.9rem;
 }
 
@@ -233,33 +190,22 @@
   border: 1px solid #00000036;
   background-color: transparent;
   padding: 0.5rem 1rem;
-  margin-top: 1rem;
-  font-family: "Open Sans";
-  font-weight: 600;
+  margin: 1rem;
+  font-family: inherit;
   cursor: pointer;
   outline: none;
 }
 
 .popup.popup-tp-2 .dt-sec-popup-area span.terms-conditions-popup {
-  text-align: center;
   width: 80%;
-  margin-top: 1.5rem;
-  font-family: "Open Sans";
   font-size: 0.7rem;
 }
 
 .popup.popup-tp-2 .dt-sec-popup-area span.dismiss {
-  font-family: "Open Sans";
   font-size: 0.8rem;
   margin-top: 1.2rem;
   cursor: pointer;
   text-decoration: underline;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
 .popup.popup-tp-3 {
@@ -268,7 +214,6 @@
   width: -moz-fit-content;
   width: fit-content;
   background-color: #fff;
-  font-family: "Open Sans";
   font-size: 0.9rem;
   border-radius: 5px;
   overflow: hidden;
@@ -295,11 +240,6 @@
   cursor: pointer;
 }
 
-.popup.popup-tp-3 .close-popup i {
-  width: 50%;
-  height: 50%;
-}
-
 .popup.popup-tp-3 .popup-cont-tp3 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -317,15 +257,13 @@
   text-align: center;
   font-weight: 600;
   font-size: 1.8rem;
-  margin-bottom: 0;
-  margin-top: 3rem;
+  margin: 3rem 0 0 0;
 }
 
 .popup.popup-tp-3 .popup-cont-tp3 p.popup-desc {
   text-align: center;
   width: 80%;
-  margin-bottom: 1.5rem;
-  margin-top: 1.5rem;
+  margin: 1.5rem 0;
 }
 
 .popup.popup-tp-3 .popup-cont-tp3 form {
@@ -349,7 +287,7 @@
   font-family: inherit;
   font-size: 1rem;
   outline: none;
-  margin-top: 1rem;
+  margin: 1rem 0;
 }
 
 .popup.popup-tp-3 .popup-cont-tp3 form button.btn.popup {
@@ -372,8 +310,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 1.5rem;
-  margin-top: 1rem;
+  margin: 1rem 0 1.5rem 0;
 }
 
 .popup.notification-tp-1 {
@@ -381,9 +318,6 @@
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
   min-width: 300px;
   background-color: #fff;
   -webkit-box-shadow: 0px 0px 3px 0px #32323538;
@@ -392,7 +326,6 @@
   display: -ms-flexbox;
   display: flex;
   border-radius: 5px;
-  font-family: "Open Sans";
 }
 
 .popup.notification-tp-1 .popup-notification-icon {
@@ -428,14 +361,8 @@
   border-radius: 50%;
 }
 
-.popup.notification-tp-1 .popup-notification-icon .icon-con i {
-  width: 45%;
-  height: 45%;
-}
-
 .popup.notification-tp-1 .popup-notification-dt {
   margin: 1rem;
-  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -457,8 +384,8 @@
 
 .popup.notification-tp-1 .close-popup {
   position: absolute;
-  width: 1.1rem;
-  height: 1.1rem;
+  width: 1rem;
+  height: 1rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -479,8 +406,7 @@
 }
 
 .popup.notification-tp-1 .close-popup i {
-  width: 55%;
-  height: 55%;
+  font-size: .7rem;
 }
 
 @media (max-width: 768px) {

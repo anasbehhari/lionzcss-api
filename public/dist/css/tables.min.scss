@@ -65,7 +65,6 @@
       text-align: center;
     }
     thead {
-      background-color: #fbfbfb;
       tr {
         th {
           padding: 1rem 1.5rem;
@@ -253,13 +252,11 @@
   font-size: 0.9rem;
   padding: 0.3rem 1.1rem;
 }
-.table td .btni  {
-  width: 35px;
-  height: 35px;
-   i {
-     width: 50% !important;
-     height: 50% !important;
-   }
+.table td button  {
+
+ display: flex;
+ justify-content: center;
+ align-items: center;
 }
 @media (max-width: 1000px) {
   .table {

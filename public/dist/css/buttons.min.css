@@ -5,18 +5,18 @@ button.btnlz {
   font-size: 1rem;
   padding: .7rem 1.2rem;
   border-radius: 3px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   gap: .3rem;
   font-family: ubuntu;
-  -webkit-transition: .2s transform ,.2s box-shadow ,.2s background-color;
-  transition: .2s transform ,.2s box-shadow ,.2s background-color;
+  -webkit-transition: .2s transform, .2s box-shadow, .2s background-color;
+  transition: .2s transform, .2s box-shadow, .2s background-color;
   outline: none;
   cursor: pointer;
+  text-align: center;
+  overflow: hidden;
+}
+
+button.btnlz a {
+  text-decoration: none;
 }
 
 button.btnlz.danger {
@@ -368,6 +368,10 @@ button.btnlz.outlined {
 
 button.btnlz.outlined:hover {
   color: #fff;
+}
+
+button.btnlz.rounded {
+  border-radius: 30px;
 }
 
 button.btnlz::before {
