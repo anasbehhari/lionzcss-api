@@ -1489,7 +1489,6 @@ button.btnlz.btni {
 }
 
 .card-product-v1 .card-product-details-infos .card-product-description {
-  font-family: "Open Sans";
   font-size: 0.75rem;
   text-align: justify;
 }
@@ -1501,7 +1500,6 @@ button.btnlz.btni {
 
 .card-product-v1 .card-product-details-infos .card-products-tl li {
   font-size: 0.7rem;
-  font-family: "Open Sans";
   margin: 0.4rem 0.6rem;
 }
 
@@ -1976,7 +1974,6 @@ button.btnlz.btni {
   width: inherit;
   border-collapse: collapse;
   border-spacing: 0 !important;
-  font-family: "Open Sans", sans-serif;
   font-size: 0.9rem;
 }
 
@@ -2029,7 +2026,6 @@ button.btnlz.btni {
   border-collapse: collapse;
   background-color: #fff;
   border-spacing: 0 !important;
-  font-family: "Open Sans", sans-serif;
   font-size: 0.9rem;
   border: #6b72802d 1px solid;
 }
