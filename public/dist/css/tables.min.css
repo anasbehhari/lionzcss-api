@@ -1,3 +1,7 @@
+.table {
+  font-family: 'Open Sans';
+}
+
 .table.table-tp-1 {
   position: relative;
   width: -webkit-fit-content;
@@ -90,7 +94,7 @@
   background-color: #fafafa;
 }
 
-.table.table-tp-2 {
+.table.table.table-tp-2 {
   position: relative;
   width: -webkit-fit-content;
   width: -moz-fit-content;
@@ -99,7 +103,7 @@
   overflow-x: auto;
 }
 
-.table.table-tp-2 table {
+.table.table.table-tp-2 table {
   position: relative;
   width: inherit;
   border-collapse: collapse;
@@ -109,12 +113,12 @@
   border: #6b72802d 1px solid;
 }
 
-.table.table-tp-2 table thead {
+.table.table.table-tp-2 table thead {
   background-color: #f9fafb;
   border-bottom: #6b72802d 1px solid;
 }
 
-.table.table-tp-2 table thead tr th {
+.table.table.table-tp-2 table thead tr th {
   padding: 0.8rem 1.5rem;
   width: auto;
   font-weight: 600;
@@ -123,36 +127,37 @@
   font-size: 0.8rem;
 }
 
-.table.table-tp-2 tbody tr {
+.table.table.table-tp-2 tbody tr {
   font-weight: inherit;
   background-color: #fff;
   border-bottom: #6b72802d 1px solid;
 }
 
-.table.table-tp-2 tbody tr.disabled {
+.table.table.table-tp-2 tbody tr.disabled {
   opacity: 0.4;
   pointer-events: none;
   cursor: not-allowed;
 }
 
-.table.table-tp-2 tbody tr td {
+.table.table.table-tp-2 tbody tr td {
   font-weight: inherit;
   padding: 1rem 1.5rem;
   width: auto;
   font-weight: 500;
 }
 
-.table.table-tp-2 tbody tr td.actions {
+.table.table.table-tp-2 tbody tr td.actions {
   display: -webkit-box !important;
   display: -ms-flexbox !important;
   display: flex !important;
 }
 
-.table.table-tp-2 tbody tr td.actions a, .table.table-tp-2 tbody tr td.actions button {
+.table.table.table-tp-2 tbody tr td.actions a,
+.table.table.table-tp-2 tbody tr td.actions button {
   margin: 0 .4rem 0 0;
 }
 
-.table.table-tp-2 tbody tr td .container-avatar-infos {
+.table.table.table-tp-2 tbody tr td .container-avatar-infos {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -163,7 +168,7 @@
   margin-right: 4rem;
 }
 
-.table.table-tp-2 tbody tr td .container-avatar-infos .avatar {
+.table.table.table-tp-2 tbody tr td .container-avatar-infos .avatar {
   position: relative;
   height: 2.5rem;
   width: 2.5rem;
@@ -179,7 +184,7 @@
           align-items: center;
 }
 
-.table.table-tp-2 tbody tr td .container-avatar-infos .avatar img {
+.table.table.table-tp-2 tbody tr td .container-avatar-infos .avatar img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
@@ -187,7 +192,7 @@
   border-radius: 50%;
 }
 
-.table.table-tp-2 tbody tr td .container-avatar-infos .infos {
+.table.table.table-tp-2 tbody tr td .container-avatar-infos .infos {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -197,12 +202,12 @@
           flex-direction: column;
 }
 
-.table.table-tp-2 tbody tr td .container-avatar-infos .infos .email {
+.table.table.table-tp-2 tbody tr td .container-avatar-infos .infos .email {
   font-size: 0.85rem;
   margin-top: 0.1rem;
 }
 
-.table.table-tp-2 tbody tr td .active-status {
+.table.table.table-tp-2 tbody tr td .active-status {
   color: #065f46;
   background-color: #d1fae5;
   display: -webkit-box;
@@ -227,7 +232,7 @@
           transform: translateX(-50%);
 }
 
-.table.table-tp-2 tbody tr td .inactive-status {
+.table.table.table-tp-2 tbody tr td .inactive-status {
   color: #842029;
   background-color: #f1cbcf;
   display: -webkit-box;
@@ -252,7 +257,7 @@
           transform: translateX(-50%);
 }
 
-.table.table-tp-2 tbody tr td .pending-status {
+.table.table.table-tp-2 tbody tr td .pending-status {
   color: #664d03;
   background-color: #fff3cd;
   display: -webkit-box;
@@ -277,7 +282,7 @@
           transform: translateX(-50%);
 }
 
-.table.table-tp-2 tbody tr td .info-status {
+.table.table.table-tp-2 tbody tr td .info-status {
   color: #055160;
   background-color: #cff4fc;
   display: -webkit-box;
@@ -302,7 +307,7 @@
           transform: translateX(-50%);
 }
 
-.table.table-tp-2 tbody tr td .role {
+.table.table.table-tp-2 tbody tr td .role {
   margin: 0 1rem;
   text-align: center;
   width: -webkit-fit-content;
@@ -310,12 +315,12 @@
   width: fit-content;
 }
 
-.table.table-tp-2 tbody tr td a {
+.table.table.table-tp-2 tbody tr td a {
   text-decoration: none;
   margin: 0 0.4rem 0 0;
 }
 
-.table.table-tp-2 tbody tr td a:hover {
+.table.table.table-tp-2 tbody tr td a:hover {
   text-decoration: underline;
 }
 

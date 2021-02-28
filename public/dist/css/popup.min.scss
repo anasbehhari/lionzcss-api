@@ -1,4 +1,5 @@
 .popup {
+  font-family: 'Open Sans';
   transition: 0.4s transform, 0.4s opacity;
   &.close-fade-up {
     transform: translate(0, -8em);

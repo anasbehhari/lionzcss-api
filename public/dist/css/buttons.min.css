@@ -6,7 +6,7 @@ button.btnlz {
   padding: .7rem 1.2rem;
   border-radius: 3px;
   gap: .3rem;
-  font-family: ubuntu;
+  font-family: 'Open Sans';
   -webkit-transition: .2s transform, .2s box-shadow, .2s background-color;
   transition: .2s transform, .2s box-shadow, .2s background-color;
   outline: none;

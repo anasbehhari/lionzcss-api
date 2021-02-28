@@ -10,6 +10,7 @@
   width: fit-content;
   min-width: 400px;
   max-width: 100%;
+  font-family: 'Open Sans';
 }
 
 .Alert .Alert .info-wrapper {
