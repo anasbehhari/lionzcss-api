@@ -21,6 +21,7 @@
 
 .card-df .card-image {
   height: 15rem;
+  width: 100%;
 }
 
 .card-df .card-image img {
