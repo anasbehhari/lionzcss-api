@@ -372,11 +372,11 @@ i {
   font-family: 'Open Sans';
 }
 
-.Alert .Alert .info-wrapper {
+.Alert .info-wrapper {
   background-color: rgba(255, 255, 255, 0.97) !important;
 }
 
-.Alert .Alert .icon {
+.Alert .icon {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -387,17 +387,17 @@ i {
   margin: 15px 20.5px;
 }
 
-.Alert .Alert .info-wrapper {
+.Alert .info-wrapper {
   width: calc(100% - 40px - 25px - 2px);
   border-radius: 0 3px 3px 0;
   padding: 10px 0;
 }
 
-.Alert .Alert .info-wrapper .Alert-title {
+.Alert .info-wrapper .Alert-title {
   margin: 0 0 0 10px;
 }
 
-.Alert .Alert .info-wrapper .Alert-description {
+.Alert .info-wrapper .Alert-description {
   font-weight: 400;
   margin: 3px 3px 0 10px;
 }
